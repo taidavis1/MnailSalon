@@ -16,7 +16,7 @@ function Navbar(){
     window.addEventListener('scroll' , Change_color)
     const Icon_Style = {fontSize: '22',};
     return (
-        <div className=" font-lato">
+        <div className="">
             <nav className= {Scroll?"bg-white flex justify-between p-4 lg:justify-around lg:py-4 shadow-md w-full fixed top-0 left-0 right-0 z-10 ":"flex text-white justify-between p-4 lg:justify-around lg:py-4 bg-none w-full fixed top-0 left-0 right-0 z-10"}>
                 <div className="flex items-center space-x-1 cursor-pointer group">
                     <img src={Logo1} alt="" className=" w-20 md:w-24 group-hover:opacity-70"/>
@@ -35,7 +35,7 @@ function Navbar(){
                         }
                     </div>
                 </div>
-                <div className= {Scroll? "lg:flex text-md hidden items-center space-x-12 text-xl capitalize text-black" : "lg:flex text-md hidden items-center space-x-12 text-xl capitalize text-black" }>
+                <div className= {Scroll? "lg:flex text-md hidden items-center space-x-12 text-xl capitalize text-black" : "lg:flex font-Lora text-md hidden items-center space-x-12 text-xl capitalize text-black" }>
                     <a className="flex t-underline t-underline-black border-b-yellow-500 " href = "/">
                         Home
                     </a>
