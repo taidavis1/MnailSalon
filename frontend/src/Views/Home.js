@@ -28,8 +28,8 @@ export default function Home(){
                             </ul>
                         </div>
                     </div>
-                    <button className="hover:bg-white/0 hover:border-[1px] hover:border-black transition-all duration-200 delay-100 md:text-xl text-white text-lg py-3 group cursor-pointer px-12 bg-[#da3b85] md:tracking-wide">
-                        <a className = "group-hover:text-black font-extrabold">Book Appointment</a>
+                    <button className="hover:bg-white/0 hover:border-[1px] hover:border-black transition duration-200 delay-100 md:text-xl text-white text-lg py-3 group cursor-pointer px-12 bg-[#da3b85] md:tracking-wide">
+                        <a className = "group-hover:text-black transition duration-200 delay-100 font-extrabold">Book Appointment</a>
                     </button>
                 </div>
             </div>
@@ -37,7 +37,7 @@ export default function Home(){
             <div className="p-5 lg:p-8 space-y-4">
                 <div className="lg:p-4 p-2 mx-auto max-w-screen-xl">
                     <div className=" grid gap-8  lg:gap-24 place-items-center lg:grid-cols-3">
-                        <div className=" flex text-center justify-center items-center space-y-5 flex-col">
+                        <div className=" cursor-pointer flex text-center justify-center items-center space-y-5 flex-col">
                             <img className="w-28" src={nailIcon} alt="#" />
                             <div className=" flex flex-col space-y-2">
                                 <h2 className=" text-2xl font-Marcok">Custom Design</h2>
@@ -48,7 +48,7 @@ export default function Home(){
                                 </div>
                             </div>
                         </div>
-                        <div className=" flex text-center justify-center items-center space-y-5 flex-col">
+                        <div className=" cursor-pointer flex text-center justify-center items-center space-y-5 flex-col">
                             <img className="w-28" src={eyeLash} alt="#" />
                             <div className=" flex flex-col space-y-2">
                                 <h2 className=" text-2xl font-Marcok">Eyelash</h2>
@@ -57,10 +57,15 @@ export default function Home(){
                                         Ligula risus auctor tempus and dolor vitae undo purus semper sodales
                                     </span>
                                 </div>
+                                <div className="">
+                                    <button className="py-4 px-12 border-2">
+                                        View More
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <div className=" flex text-center justify-center items-center space-y-5 flex-col">
-                            <img className="w-28" src={gelx} alt="#" />
+                        <div className=" cursor-pointer p-2 group flex text-center justify-center items-center space-y-5 flex-col">
+                            <img className="w-28 " src={gelx} alt="#" />
                             <div className=" flex flex-col space-y-2">
                                 <h2 className=" text-2xl font-Marcok">Gel-X</h2>
                                 <div className="">
@@ -75,5 +80,5 @@ export default function Home(){
             </div>
 
         </section>
-    )
-}
+    );
+};

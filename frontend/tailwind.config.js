@@ -31,6 +31,8 @@ module.exports = {
         'ser-color': '#ffe4b0',
         'gold': '#ffd700',
         'blue-test': '#373b4d',
+        'main-color': '#da3b85',
+        'second-color': '#e15668',
       },
       backgroundImage:{
         'pagel': "url('/src/img/bg1.jpg')",

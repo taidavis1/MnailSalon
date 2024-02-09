@@ -17,7 +17,7 @@ function Navbar(){
     const Icon_Style = {fontSize: '22',};
     return (
         <div className="">
-            <nav className= {Scroll?"bg-white flex justify-between p-4 lg:justify-around lg:py-4 shadow-md w-full fixed top-0 left-0 right-0 z-10 ":"flex text-white justify-between p-4 lg:justify-around lg:py-4 bg-none w-full fixed top-0 left-0 right-0 z-10"}>
+            <nav className= {Scroll?"bg-white transition ease-out duration-200 delay-100 flex justify-between p-4 lg:justify-around lg:py-4 shadow-md w-full fixed top-0 left-0 right-0 z-10 ":"flex text-white justify-between p-4 lg:justify-around lg:py-4 bg-none w-full fixed top-0 left-0 right-0 z-10"}>
                 <div className="flex items-center space-x-1 cursor-pointer group">
                     <img src={Logo1} alt="" className=" w-20 md:w-24 group-hover:opacity-70"/>
                 </div>
@@ -36,16 +36,16 @@ function Navbar(){
                     </div>
                 </div>
                 <div className= {Scroll? "lg:flex text-md hidden items-center space-x-12 text-xl capitalize text-black" : "lg:flex font-Lora text-md hidden items-center space-x-12 text-xl capitalize text-black" }>
-                    <a className="flex t-underline t-underline-black border-b-yellow-500 " href = "/">
+                    <a className="flex hover:text-main-color transition ease-in-out delay-150 duration-200" href = "/">
                         Home
                     </a>
-                    <a className="flex t-underline  t-underline-black border-b-yellow-500 transition ease-in-out delay-150 duration-200" href = "/Services">
+                    <a className="flex hover:text-main-color transition ease-in-out delay-150 duration-200" href = "/Services">
                         Services
                     </a>
-                    <a className="flex t-underline t-underline-black border-b-yellow-500  transition ease-in-out delay-150 duration-200" href = "/Staff">
+                    <a className="flex hover:text-main-color transition ease-in-out delay-150 duration-200" href = "/Staff">
                         Staff
                     </a>
-                    <a className="flex t-underline t-underline-black border-b-yellow-500  transition ease-in-out delay-150 duration-200" href = "/Contact">
+                    <a className="flex hover:text-main-color transition ease-in-out delay-150 duration-200" href = "/Contact">
                         Contact Us
                     </a>
                 </div>
@@ -63,7 +63,7 @@ function Navbar(){
                         <FontAwesomeIcon className="hover:text-red-400 transition ease-in-out delay-150 duration-200" style={Icon_Style}  icon={faYelp}></FontAwesomeIcon>
                     </a>
                     <button
-                        className= {Scroll? "hover:bg-black group cursor-pointer px-4 py-3 border-black border-2 capitalize":"hover:bg-white/20 duration-200 ease-in-out delay-100 bg-[#da3b85] group cursor-pointer px-4 py-3 capitalize"}>
+                        className= {Scroll? "hover:bg-black group cursor-pointer px-4 py-3 border-black border-2 capitalize":"hover:bg-white/20 duration-200 ease-in-out delay-100 bg-main-color group cursor-pointer px-4 py-3 capitalize"}>
                         <a target="_blank" className = {Scroll?"group-hover:text-white tracking-wider uppercase":"tracking-wider uppercase"}>Book Now</a>
                     </button>
                 </div>
