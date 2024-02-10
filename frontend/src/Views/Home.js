@@ -67,11 +67,11 @@ export default function Home(){
                             </div>
                         </div>
                         <div className=" cursor-pointer flex text-center justify-center items-center space-y-5 flex-col">
-                            <img className="w-28" src={eyeLash} alt="#" />
+                            <img className="w-28" src={gelx} alt="#" />
                             <div className=" flex flex-col space-y-5">
                                 <div className=" space-y-2">
                                     <div>
-                                        <h2 className=" text-2xl font-Marcok">Eyelash</h2>
+                                        <h2 className=" text-2xl font-Marcok">Gel-X</h2>
                                     </div>
                                     <div>
                                         <span className="">
@@ -90,11 +90,11 @@ export default function Home(){
                             </div>
                         </div>
                         <div className=" cursor-pointer p-2 flex text-center justify-center items-center space-y-5 flex-col">
-                            <img className="w-28 " src={gelx} alt="#" />
+                            <img className="w-28 " src={eyeLash} alt="#" />
                             <div className=" flex flex-col space-y-5">
                                 <div className=" space-y-2">
                                     <div>
-                                        <h2 className=" text-2xl font-Marcok">Gel-X</h2>
+                                        <h2 className=" text-2xl font-Marcok">Eyelash</h2>
                                     </div>
                                     <div>
                                         <span className="">
