@@ -36,6 +36,8 @@ module.exports = {
       },
       backgroundImage:{
         'pagel': "url('/src/img/bg1.jpg')",
+        'pagesm': "url('/src/img/bgtest.png')",
+        'bg2': "url('/src/img/bg2.png')",
       }
     },
   },

@@ -28,10 +28,10 @@ function Navbar(){
                     <div onClick={(e) => {e.preventDefault(); window.open("https://www.google.com/maps/place/4561+Mack+Rd,+Sacramento,+CA+95823/@38.4753422,-121.4487983,17z/data=!3m1!4b1!4m6!3m5!1s0x809acf7cd6a35395:0xb2223c5c8cb0c9ca!8m2!3d38.4753422!4d-121.4487983!16s%2Fg%2F11bw3zq57f?entry=ttu" , '_blank')}} className={`${Scroll? "" : "border-0" } p-2 rounded-full`}>
                         <FontAwesomeIcon className= "flex !text-xl text-sky-400" icon = {faLocationDot}/>
                     </div>
-                    <div onClick={() => setClick(!Click)} className={Scroll?"lg:hidden text-3xl cursor-pointer flex items-center text-black space-x-4": "lg:hidden space-x-4 blkock text-3xl cursor-pointer flex items-center text-[#3C6CA8]"}>
+                    <div onClick={() => setClick(!Click)} className={Scroll?"lg:hidden transition text-3xl cursor-pointer flex items-center text-black space-x-4": "lg:hidden space-x-4 blkock text-3xl cursor-pointer flex items-center text-[#3C6CA8]"}>
                         {!Click? 
-                            <FontAwesomeIcon className=" text-orange-400" icon = {faBarsStaggered}/> : 
-                            <FontAwesomeIcon className=" text-orange-400" icon={faXmark} />
+                            <FontAwesomeIcon className=" text-main-color" icon = {faBarsStaggered}/> : 
+                            <FontAwesomeIcon className=" text-main-color" icon={faXmark} />
                         }
                     </div>
                 </div>
