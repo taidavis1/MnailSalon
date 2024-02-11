@@ -38,6 +38,8 @@ module.exports = {
         'pagel': "url('/src/img/bg1.jpg')",
         'pagesm': "url('/src/img/bgtest.png')",
         'bg2': "url('/src/img/bg2.png')",
+        'gpage': "url('/src/img/galleryBanner.png')",
+        'gpage1': "url('/src/img/serviceBanner.png')",
       }
     },
   },

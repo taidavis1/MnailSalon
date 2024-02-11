@@ -15,10 +15,11 @@ export default function Home(){
         <section className="relative font-Lora overflow-x-hidden space-y-2 lg:space-y-8">
             <div className="w-screen bg-pagesm lg:bg-pagel bg-no-repeat lg:bg-center bg-cover h-screen relative">
                 <div className="w-screen absolute lg:right-56 text-center top-1/3 px-3 py-5 space-y-5 lg:py-8 md:space-y-6">
-                    <div className="">
-                        <h1 className="text-4xl capitalize ml-4 text-black md:text-6xl tracking-widest whitespace-nowrap font-extrabold">
-                            M nail & lash
+                    <div className="space-y-2">
+                        <h1 className="text-4xl capitalize ml-4 text-black md:text-6xl tracking-widest font-extrabold">
+                            M spa beauty
                         </h1>
+                        <h1 className="text-3xl capitalize ml-4 text-black md:text-5xl tracking-widest font-extrabold">lash & nail</h1>
                     </div>
                     <div className="p-2">
                         <div className="italic">
