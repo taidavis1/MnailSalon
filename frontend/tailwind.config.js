@@ -41,6 +41,7 @@ module.exports = {
         'gpage': "url('/src/img/galleryBanner.png')",
         'gpage1': "url('/src/img/serviceBanner.png')",
         'bgpop1' : "url('/src/img/popup1.png')",
+        'gpage3': "url('/src/img/bg3.png')",
       }
     },
   },
