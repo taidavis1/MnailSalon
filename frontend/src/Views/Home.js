@@ -7,6 +7,7 @@ import thirdimg from "../img/third-img.png";
 import DataHome from "../Components/DataHome";
 import SwiperReview from "../Components/SwiperReview";
 import Popup from "../Components/Popup";
+import Yelp from "../img/yelp.jpg";
 function importImg(r){
     return r.keys().map(r);
 }
@@ -233,6 +234,17 @@ export default function Home(){
                         <span className = "text-center text-3xl lg:text-5xl text-black">Our Customer Review</span>
                         <div>
                             <SwiperReview />
+                        </div>
+                    </div>
+                </div>
+                <div className="lg:p-4 p-2 mx-auto max-w-screen-xl">
+                    <div className=" flex flex-col space-y-4 lg:space-y-6">
+                        <span className = "text-center text-xl lg:text-2xl text-black/50">Rewards</span>
+                        <span className = "text-center text-3xl lg:text-5xl text-black">Yelp Recognition</span>
+                        <div className="flex justify-center">
+                            <div className=" max-w-xl shadow-md overflow-hidden">
+                                <img src={Yelp} className="ease-in-out transition-all duration-1000 hover:scale-125" />
+                            </div>
                         </div>
                     </div>
                 </div>
