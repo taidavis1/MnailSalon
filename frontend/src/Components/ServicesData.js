@@ -7,24 +7,28 @@ const ServicesData = [
                 id : 1,
                 name: 'Herbal Green Tea Pedicure/Manicure',
                 price: '$60/$40',
-                desc: 'The aromas of this foot bath will open your sinuses and clear your head to pamper your senses. Natural Chinese herbs will increase blood circulatiuon while protecting and restoring moisture followed with a warm neck wrap to soothe any tensions.'
+                img_url : require('../img/manicure/1.jpg'),
+                desc: 'The aromas of this foot bath will open your sinuses and clear your head to pamper your senses. Natural Chinese herbs will increase blood circulatiuon while protecting and restoring moisture followed with a warm neck wrap to soothe any tensions.',
             },
             {
                 id : 2,
                 name: 'Detox Pedicure/Manicure',
                 price: '$80/$47',
+                img_url : require('../img/manicure/2.jpg'),
                 desc: 'One of our most enjoybable pedicyres. Includes a charcoal soak , purifying scrub , nourishing mask , and neck therapy. this is followed by parrafin wax treatment and a 25 minute feet and shoulder massage using hot stones and emollient massage cream to soften and soothe'
             },
             {
                 id : 3,
                 name: 'Organic Pedicure/Manicure',
                 price: '$70/$45',
+                img_url : require('../img/manicure/3.jpg'),
                 desc: 'An organic pedicure system with bubbling detox crystal foot bath to eliminate toxins from the body. A pedicure infused with collagen to reduce the eefects of aging skin as the collagen is absorbed by the skin and a relaxing neck therapy and hot stone foot massage to relieve stress'
             },
             {
                 id : 4,
                 name: 'Basic Pedicure/Manicure',
                 price: '$35/$20',
+                img_url : require('../img/manicure/4.jpg'),
                 desc: 'Foot Soak + Nail Shaping + Cutigie Care + Soft Pumice Foot Scrub + Sugar Exfoliating Scrub + Lotion Foot Massage + Color Polish.'
             }, 
             
@@ -32,21 +36,25 @@ const ServicesData = [
                 id : 5,
                 name: 'Golden Pedicure/Manicure',
                 price: '$85/$50',
+                img_url : require('../img/manicure/5.jpg'),
                 desc : 'Enjoy the most luxurious pedicure utilizing products from Ceremony of gold which includes a gold soak , scrub , and gel mask. The extremely rejuvenating pedicure with 24K gold ingredients to aid the slowdow of collagen depletion , increasing of ksin elasticity , and stimulating cells to the help tone up the skin. Gold soak with herbal infused foot bath + neck therapy + collagen foot mask + 25 minute feet and shoulder massage wit hhot stones'
             },
             {
                 id : 6,
                 name: 'Peppermint Pedicure/Manicure',
                 price: '$50/$30',
+                img_url : require('../img/manicure/6.jpg'),
                 desc: 'Ease your feet into an aroma therapeutic bath rich with tea tree oil, fragrant eucalyptus oil , and Vitamin-e-all-anti-inflammatory. hen enjoy a lavish scrub of mineral sea salt that polishes the skin. An intense heel smoothing treatment with peppermint cream soothes and refreshes like a gentle breeze. Finish with a moisture restoring warm paraffin treatment and a warm neck wrap'
             },
             {
                 id : 7,
                 name: 'Citrus or Aloe Vera/Manicure',
                 price: '$70/$40',
+                img_url : require('../img/manicure/7.png'),
                 desc: 'Grapefruit , orange , lemon infused foot bath to eliminate bacterial present on the skin. Our summer citrus pedicure is a symphony of essential oils , vitamin E , and antioxidants formulated to stimulate your senses as it smooth , refines , and c onditions your feet. A fruit rub follows to wipe dead skin and restore moisture. It provides rich vitamins and minerals to give naturally radiant skin with strong healthy nails'
             },
-        ]
+        ],
+        img_url : require('../img/manicure/1.jpg'),
     },
     {
         id : 2,
@@ -55,14 +63,17 @@ const ServicesData = [
             {
                 id : 1,
                 name: 'New Set/Refill',
-                price : '$65/$55'
+                price : '$65/$55',
+                img_url : require('../img/gelx2.jpg')
             },
             {
                 id : 2,
                 name: 'Hybrid color gel new set / refill',
-                price: '$60/$50'
+                price: '$60/$50',
+                img_url : require('../img/gelx3.jpg')
             },
-        ]
+        ],
+        img_url : require('../img/gelx3.jpg')
     },
     {
         id : 3,
@@ -118,7 +129,8 @@ const ServicesData = [
                 name : 'Acrylic Color Powder Fullset/Refill',
                 price: '$50+ / $40+'
             },
-        ]
+        ],
+        img_url : require('../img/6.jpg')
     },
     {
         id : 4,
@@ -172,7 +184,8 @@ const ServicesData = [
                 name: 'Brazilian',
                 price: '$55+'
             },
-        ]
+        ],
+        img_url : require('../img/wax.jpg')
     },
     {
         id : 5,
@@ -180,21 +193,26 @@ const ServicesData = [
         service: [
             {
                 name: 'Express 30 Min Teen',
-                price: '$45'
+                price: '$45',
+                img_url: require('../img/facial/1.png')
             },
             {
                 name: 'Dream 50 Min',
-                price: '$60'
+                price: '$60',
+                img_url: require('../img/facial/2.png')
             },
             {
                 name: 'Gentlement 60 Min',
-                price: '$75'
+                price: '$75',
+                img_url: require('../img/facial/3.png')
             },
             {
                 name: 'M Signature 90 Min',
-                price: '$90'
+                price: '$90',
+                img_url: require('../img/facial/4.png')
             },
-        ]
+        ],
+        img_url: require('../img/facial/3.png')
     },
     {
         id : 6,
@@ -202,21 +220,26 @@ const ServicesData = [
         service: [
             {
                 name : 'Cluster',
-                price : '$60'
+                price : '$60',
+                img_url: require('../img/eyelash/1.jpg')
             },
             {
-                name : 'Classix',
-                price : '$99+'
+                name : 'Classic',
+                price : '$99+',
+                img_url: require('../img/eyelash/4.jpg')
             },
             {
                 name : 'Hybrid',
-                price : '$125+'
+                price : '$125+',
+                img_url: require('../img/eyelash/2.jpg')
             },
             {
                 name : 'Volume',
-                price : '$150+'
+                price : '$150+',
+                img_url: require('../img/eyelash/6.jpg')
             }
-        ]
+        ],
+        img_url: require('../img/eyelash/6.jpg')
     },
     {
         id : 7,
@@ -254,7 +277,8 @@ const ServicesData = [
                 name : 'Removal With Service',
                 price : '$5'
             },
-        ]
+        ],
+        img_url: require('../img/extra.png')
     },
     {
         id : 8,
@@ -276,7 +300,8 @@ const ServicesData = [
                 name : 'Gel Color',
                 price : '$15'
             }
-        ]
+        ],
+        img_url : require('../img/kid.png')
     },
     {
         id : 9,
@@ -303,7 +328,8 @@ const ServicesData = [
             {
                 name: 'Coke , Sprite , Dr.Pepper , Water'
             }
-        ]
+        ],
+        img_url : require('../img/drink.jpg')
     }
 ];
 

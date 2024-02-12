@@ -40,6 +40,7 @@ module.exports = {
         'bg2': "url('/src/img/bg2.png')",
         'gpage': "url('/src/img/galleryBanner.png')",
         'gpage1': "url('/src/img/serviceBanner.png')",
+        'bgpop1' : "url('/src/img/popup1.png')",
       }
     },
   },
