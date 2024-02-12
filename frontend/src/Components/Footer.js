@@ -23,7 +23,7 @@ export default function Footer(){
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto:dv_nailsspa@yahoo.com" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
+                                <a href="mailto:mnails@gmail.com" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
                                     <img src="https://img.icons8.com/fluent/30/000000/gmail-new.png"/>
                                 </a>
                             </li>
@@ -100,37 +100,37 @@ export default function Footer(){
                             <ul className="mt-8 space-y-4 text-sm">
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Mon: 9:00 am - 6:00 pm
+                                        Mon: 10:00 am - 7:30 pm
                                     </a>
                                 </li>
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Tues: 9:00 am - 6:00 pm
+                                        Tues: 10:00 am - 7:30 pm
                                     </a>
                                 </li>
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Wed: 9:00 am - 6:00 pm
+                                        Wed: 10:00 am - 7:30 pm
                                     </a>
                                 </li>
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Thrus: 9:00 am - 6:00 pm
+                                        Thu: 10:00 am - 7:30 pm
                                     </a>
                                 </li>
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Fri: 9:00 am - 6:00 pm
+                                        Fri: 10:00 am - 7:30 pm
                                     </a>
                                 </li>
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Sat: 9:00 am - 6:00 pm
+                                        Sat: 10:00 am - 7:00 pm
                                     </a>
                                 </li>
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Sun: Closed
+                                        Sun: 12:00 pm - 6:00 pm
                                     </a>
                                 </li>
                             </ul>
@@ -154,7 +154,7 @@ export default function Footer(){
                                             d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                                             />
                                         </svg>
-                                        <a href="mailto:dv_nailsspa@yahoo.com" className="flex-1 text-gray-700">dv_nailsspa@yahoo.com</a>
+                                        <a href="mailto:mnails@gmail.com" className="flex-1 text-gray-700">mnails@gmail.com</a>
                                     </a>
                                 </li>
       
@@ -175,7 +175,7 @@ export default function Footer(){
                                             />
                                         </svg>
       
-                                        <span className="flex-1 text-gray-700">(410) 437-6300</span>
+                                        <span className="flex-1 text-gray-700">(972) 943-0322</span>
                                     </a>
                                 </li>
       
@@ -199,8 +199,8 @@ export default function Footer(){
                                         d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                                     />
                                     </svg>
-                                    <a  target="_blank"  rel="noreferrer" href = "https://www.google.com/maps/dir//NAILS+TECH,+3201+Mountain+Rd+Suite+111,+Pasadena,+MD+21122/@39.125234,-76.5347105,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89b7feb081c4ffd5:0xc692714eadeeba94!2m2!1d-76.5347105!2d39.125234?entry=ttu" className="-mt-0.5 flex-1 not-italic text-gray-700">
-                                        3201 Mountain Rd Suite 111, Pasadena, MD 21122                                    
+                                    <a  target="_blank"  rel="noreferrer" href = "https://maps.app.goo.gl/BsqTK3fUdE9D3pCd8" className="-mt-0.5 flex-1 not-italic text-gray-700">
+                                        308 Coit Rd #200, Plano, TX 75075                                   
                                     </a>
                                 </li>
                             </ul>
@@ -215,7 +215,7 @@ export default function Footer(){
                         </p>  
         
                         <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-                            &copy; 2023 Nails Tech
+                            &copy; 2024 M Spa & Beauty Nails
                         </p>
                     </div>
                 </div>
