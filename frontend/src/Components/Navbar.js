@@ -17,12 +17,12 @@ function Navbar(){
     const Icon_Style = {fontSize: '22',};
     return (
         <div className="">
-            <nav className= {Scroll?"bg-white transition ease-out duration-200 delay-100 flex justify-between p-4 lg:justify-around lg:py-4 shadow-md w-full fixed top-0 left-0 right-0 z-10 ":"flex text-white justify-between p-4 lg:justify-around lg:py-4 bg-none w-full fixed top-0 left-0 right-0 z-10"}>
+            <nav className= {Scroll?"bg-white transition ease-out duration-200 delay-100 flex justify-between p-2 lg:justify-around lg:py-4 shadow-md w-full fixed top-0 left-0 right-0 z-10 ":"flex text-white justify-between p-2 lg:justify-around lg:py-4 bg-none w-full fixed top-0 left-0 right-0 z-10"}>
                 <div className="flex items-center space-x-1 cursor-pointer group">
                     <img src={Logo1} alt="" className=" w-20 md:w-24 group-hover:opacity-70"/>
                 </div>
                 <div className={Scroll?"lg:hidden text-3xl cursor-pointer flex items-center text-black space-x-4": "lg:hidden space-x-4 blkock text-3xl cursor-pointer flex items-center text-[#3C6CA8]"}>
-                    <div onClick={() => window.location.href = "tel:9163337077"} className={`${Scroll? "bg-green-400" : "border-0" } p-2 rounded-full`}>
+                    <div onClick={() => window.location.href = "tel:9163337077"} className={`${Scroll? "bg-green-400" : "border-0" } p-[6px] rounded-full`}>
                         <FontAwesomeIcon className= {`${Scroll? "text-white" : "text-green-400"} flex text-sm`} icon = {faPhone}/>
                     </div>
                     <div onClick={(e) => {e.preventDefault(); window.open("https://www.google.com/maps/place/4561+Mack+Rd,+Sacramento,+CA+95823/@38.4753422,-121.4487983,17z/data=!3m1!4b1!4m6!3m5!1s0x809acf7cd6a35395:0xb2223c5c8cb0c9ca!8m2!3d38.4753422!4d-121.4487983!16s%2Fg%2F11bw3zq57f?entry=ttu" , '_blank')}} className={`${Scroll? "" : "border-0" } p-2 rounded-full`}>

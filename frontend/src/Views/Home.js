@@ -242,8 +242,8 @@ export default function Home(){
                         <span className = "text-center text-xl lg:text-2xl text-black/50">Rewards</span>
                         <span className = "text-center text-3xl lg:text-5xl text-black">Yelp Recognition</span>
                         <div className="flex justify-center">
-                            <div className=" max-w-xl shadow-md overflow-hidden">
-                                <img src={Yelp} className="ease-in-out transition-all duration-1000 hover:scale-125" />
+                            <div className=" max-w-xl rounded-xl shadow-md overflow-hidden">
+                                <img src={Yelp} className="ease-in-out rounded-xl transition-all duration-1000 hover:scale-125" />
                             </div>
                         </div>
                     </div>

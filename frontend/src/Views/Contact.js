@@ -4,7 +4,7 @@ export default function Contact(){
 
     return (
         <section className = "space-y-2 pb-5 md:pb-12 ">
-            <div className="bg-gpage3 bg-no-repeat bg-center bg-cover h-[300px] lg:h-[480px] relative">
+            <div className="bg-gpage3 bg-no-repeat lg:bg-center bg-cover h-[300px] lg:h-[480px] relative">
                 <div className="font-newFont top-8 lg:top-12 -left-12 lg:-left-1/4 w-full absolute text-3xl h-full flex items-center justify-center cursor-pointer text-black lg:text-5xl">
                     <h2 className="">Contact Us</h2>
                 </div>
