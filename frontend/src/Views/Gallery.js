@@ -30,7 +30,7 @@ export default function Gallery(){
                                             <Item width="900" height="900"key={index} original={fname}  alt= "#">
                                                 {({ref , open}) => (
                                                     <div className="sticky h-full">
-                                                        <img ref={ref} onClick={open} className=" rounded-lg h-full" alt="#" src={fname} />
+                                                        <img ref={ref} onClick={open} className=" rounded-lg" alt="#" src={fname} />
                                                         <div ref={ref} onClick={open} className=" hidden absolute p-8 inset-0 z-10 bg-black lg:flex flex-col justify-center opacity-0 hover:opacity-100 ease-linear duration-500 transition-all bg-opacity-50">                                                            
                                                             <div className=" bg-black/20 p-1 lg:p-4">
                                                                     <div className=" flex justify-center text-lg text-white font-thin space-x-1">

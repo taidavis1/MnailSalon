@@ -22,10 +22,10 @@ function Navbar(){
                     <img src={Logo1} alt="" className=" w-20 md:w-24 group-hover:opacity-70"/>
                 </div>
                 <div className={Scroll?"lg:hidden text-3xl cursor-pointer flex items-center text-black space-x-4": "lg:hidden space-x-4 blkock text-3xl cursor-pointer flex items-center text-[#3C6CA8]"}>
-                    <div onClick={() => window.location.href = "tel:9163337077"} className={`${Scroll? "bg-green-400" : "border-0" } p-[6px] rounded-full`}>
+                    <div onClick={() => window.location.href = "tel:9729430322"} className={`${Scroll? "bg-green-400" : "border-0" } p-[6px] rounded-full`}>
                         <FontAwesomeIcon className= {`${Scroll? "text-white" : "text-green-400"} flex text-sm`} icon = {faPhone}/>
                     </div>
-                    <div onClick={(e) => {e.preventDefault(); window.open("https://www.google.com/maps/place/4561+Mack+Rd,+Sacramento,+CA+95823/@38.4753422,-121.4487983,17z/data=!3m1!4b1!4m6!3m5!1s0x809acf7cd6a35395:0xb2223c5c8cb0c9ca!8m2!3d38.4753422!4d-121.4487983!16s%2Fg%2F11bw3zq57f?entry=ttu" , '_blank')}} className={`${Scroll? "" : "border-0" } p-2 rounded-full`}>
+                    <div onClick={(e) => {e.preventDefault(); window.open("https://www.google.com/maps/place/M+Spa+%26+Beauty+Nails/@33.0022604,-96.7675107,17z/data=!3m1!4b1!4m6!3m5!1s0x864c22114ed50c57:0xf813007a332e70df!8m2!3d33.0022559!4d-96.7649304!16s%2Fg%2F11bx1s17w_?entry=ttu" , '_blank')}} className={`${Scroll? "" : "border-0" } p-2 rounded-full`}>
                         <FontAwesomeIcon className= "flex !text-xl text-sky-400" icon = {faLocationDot}/>
                     </div>
                     <div onClick={() => setClick(!Click)} className={Scroll?"lg:hidden transition text-3xl cursor-pointer flex items-center text-black space-x-4": "lg:hidden space-x-4 blkock text-3xl cursor-pointer flex items-center text-[#3C6CA8]"}>
@@ -50,21 +50,18 @@ function Navbar(){
                     </a>
                 </div>
                 <div className = {Scroll? "hidden lg:flex items-center space-x-12 text-black": "hidden lg:flex items-center space-x-12 text-white"}>
-                    <a className="cursor-pointer flex" target="_blank" rel="noreferrer" href = "https://www.instagram.com/nicespasac/">
+                    <a className="cursor-pointer flex" target="_blank" rel="noreferrer" href = "https://www.instagram.com/mspabeautynails/">
                         <FontAwesomeIcon className="hover:text-rose-300 transition ease-in-out delay-150 duration-200" style={Icon_Style}  icon={faInstagram}></FontAwesomeIcon>
                     </a>
-                    <a className="cursor-pointer flex" target="_blank" rel="noreferrer" href = "https://www.facebook.com/profile.php?id=61552561621667">
-                        <FontAwesomeIcon className="hover:text-sky-300 transition ease-in-out delay-150 duration-200" style={Icon_Style} icon={faFacebookF}></FontAwesomeIcon>
-                    </a>
-                    <a className="cursor-pointer flex" target="_blank"  rel="noreferrer" href = "https://www.google.com/maps/place/4561+Mack+Rd,+Sacramento,+CA+95823/@38.4753422,-121.4487983,17z/data=!3m1!4b1!4m6!3m5!1s0x809acf7cd6a35395:0xb2223c5c8cb0c9ca!8m2!3d38.4753422!4d-121.4487983!16s%2Fg%2F11bw3zq57f?entry=ttu">
+                    <a className="cursor-pointer flex" target="_blank"  rel="noreferrer" href = "https://www.google.com/maps/place/M+Spa+%26+Beauty+Nails/@33.0022604,-96.7675107,17z/data=!3m1!4b1!4m6!3m5!1s0x864c22114ed50c57:0xf813007a332e70df!8m2!3d33.0022559!4d-96.7649304!16s%2Fg%2F11bx1s17w_?entry=ttu">
                         <FontAwesomeIcon className="hover:text-green-300" style={Icon_Style} icon={faGoogle}></FontAwesomeIcon>
                     </a>
-                    <a className="cursor-pointer flex" target="_blank" rel="noreferrer" href = "https://www.yelp.com/biz/nice-spa-sacramento-2">
+                    <a className="cursor-pointer flex" target="_blank" rel="noreferrer" href = "https://www.yelp.com/biz/m-spa-and-beauty-nails-plano-3">
                         <FontAwesomeIcon className="hover:text-red-400 transition ease-in-out delay-150 duration-200" style={Icon_Style}  icon={faYelp}></FontAwesomeIcon>
                     </a>
                     <button
-                        className= {Scroll? "hover:bg-black group cursor-pointer px-4 py-3 border-black border-2 capitalize":"hover:bg-white/20 duration-200 ease-in-out delay-100 bg-main-color group cursor-pointer px-4 py-3 capitalize"}>
-                        <a target="_blank" className = {Scroll?"group-hover:text-white tracking-wider uppercase":"tracking-wider uppercase"}>Book Now</a>
+                        className= {Scroll? "transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color border-[1px] group cursor-pointer px-4 py-3 capitalize":"hover:bg-white/20 duration-200 ease-in-out delay-100 bg-main-color group cursor-pointer px-4 py-3 capitalize"}>
+                        <a target="_blank" className = {Scroll?"group-hover:text-white transition ease-in-out duration-200 tracking-wider uppercase":"tracking-wider uppercase"}>Book Now</a>
                     </button>
                 </div>
             </nav>
@@ -81,16 +78,13 @@ function Navbar(){
                         </button>
                     </div>
                     <div className="flex space-x-10 text-2xl justify-center">
-                        <a className="cursor-pointer flex" target="_blank" rel="noreferrer" href = "https://www.instagram.com/nicespasac/">
+                        <a className="cursor-pointer flex" target="_blank" rel="noreferrer" href = "https://www.instagram.com/mspabeautynails/">
                             <FontAwesomeIcon className="text-rose-300"  icon={faInstagram}></FontAwesomeIcon>
                         </a>
-                        <a className="cursor-pointer flex" target="_blank" rel="noreferrer" href = "https://www.facebook.com/profile.php?id=61552561621667">
-                            <FontAwesomeIcon className="text-sky-300"  icon={faFacebookF}></FontAwesomeIcon>
-                        </a>
-                        <a className="cursor-pointer flex" target="_blank" rel="noreferrer" href = "https://www.google.com/maps/place/4561+Mack+Rd,+Sacramento,+CA+95823/@38.4753422,-121.4487983,17z/data=!3m1!4b1!4m6!3m5!1s0x809acf7cd6a35395:0xb2223c5c8cb0c9ca!8m2!3d38.4753422!4d-121.4487983!16s%2Fg%2F11bw3zq57f?entry=ttu">
+                        <a className="cursor-pointer flex" target="_blank" rel="noreferrer" href = "https://www.google.com/maps/place/M+Spa+%26+Beauty+Nails/@33.0022604,-96.7675107,17z/data=!3m1!4b1!4m6!3m5!1s0x864c22114ed50c57:0xf813007a332e70df!8m2!3d33.0022559!4d-96.7649304!16s%2Fg%2F11bx1s17w_?entry=ttu">
                             <FontAwesomeIcon className="text-green-300"  icon={faGoogle}></FontAwesomeIcon>
                         </a>
-                        <a className="cursor-pointer flex" target="_blank" rel="noreferrer" href = "https://www.yelp.com/biz/nice-spa-sacramento-2">
+                        <a className="cursor-pointer flex" target="_blank" rel="noreferrer" href = "https://www.yelp.com/biz/m-spa-and-beauty-nails-plano-3">
                             <FontAwesomeIcon className="text-red-400" style={Icon_Style}  icon={faYelp}></FontAwesomeIcon>
                         </a>
                     </div>

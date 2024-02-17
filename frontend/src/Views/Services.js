@@ -3,6 +3,7 @@ import thirdimg from "../img/third-img.png";
 import ServicesData from "../Components/ServicesData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faXmark , faPlus} from "@fortawesome/free-solid-svg-icons";
+import {Fade,Slide} from "react-awesome-reveal";
 
 export default function Services(){
     const [IsClick , setIsClick] = useState(false);
@@ -49,74 +50,78 @@ export default function Services(){
                                         </div>
                                     </div>
                                     {IsClick[s.id] && (
-                                        <div className="">
-                                            <div className="p-2 shadow-md space-y-4 rounded-lg">
-                                                <div className="">
-                                                    <img src={s.img_url} alt = {s.servicename} />
+                                        <Fade duration={1500} delay={100}>
+                                            <div className="">
+                                                <div className="p-2 shadow-md space-y-4 rounded-lg">
+                                                    <div className="">
+                                                        <img src={s.img_url} alt = {s.servicename} />
+                                                    </div>
+                                                    {s.service.map((se , index) => (
+                                                        <>
+                                                            <div className="text-black flex flex-col gap-4">
+                                                                <div className="flex font-newFont flex-col space-y-2">
+                                                                    <span className="text-xl">{index + 1}. {se.name}</span>
+                                                                    {s.id === 1 && (
+                                                                        <span className=" text-justify">{se.desc}</span>
+                                                                    )}
+                                                                </div>
+                                                                <div className=" flex justify-center items-center">
+                                                                    <span className=" text-orange-400 tracking-wider font-bold">{se.price}</span>
+                                                                </div>
+                                                            </div>
+                                                            <hr></hr>  
+                                                        </>
+                                                    ))}
                                                 </div>
-                                                {s.service.map((se , index) => (
-                                                    <>
-                                                        <div className="text-black flex flex-col gap-4">
-                                                            <div className="flex font-newFont flex-col space-y-2">
-                                                                <span className="text-xl">{index + 1}. {se.name}</span>
-                                                                {s.id === 1 && (
-                                                                    <span className=" text-justify">{se.desc}</span>
-                                                                )}
-                                                            </div>
-                                                            <div className=" flex justify-center items-center">
-                                                                <span className=" text-orange-400 tracking-wider font-bold">{se.price}</span>
-                                                            </div>
-                                                        </div>
-                                                        <hr></hr>  
-                                                    </>
-                                                ))}
                                             </div>
-                                        </div>
+                                        </Fade>
                                     )}
                                 </div>
                             </div>
                         ))}
                     </div>
 
-
+                                                        
                     {/* Desktop View */}
-                    {ServicesData.map((ser) => (
-                       <div className="p-3 space-y-8 hidden md:block">
-                            <div id={ser.id} key={ser.id} className="flex justify-center">
-                                <div className="bg-main-color/80 rounded-full shadow-md  px-12 py-3">
-                                    <h1 className="tracking-wide capitalize cursor-pointer italic text-white md:text-4xl font-bold">{ser.servicename}</h1>
+                    <Slide duration={1500} delay={100}>
+                        {ServicesData.map((ser) => (
+                        <div className="p-3 space-y-8 hidden md:block">
+                                <div id={ser.id} key={ser.id} className="flex justify-center">
+                                    <div className="bg-main-color/80 rounded-full shadow-md  px-12 py-3">
+                                        <h1 className="tracking-wide capitalize cursor-pointer italic text-white md:text-4xl font-bold">{ser.servicename}</h1>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="p-4 cursor-pointer">
-                                <div className=" grid gap-4 grid-cols-4">
-                                    {ser.service.map((s , index) => (
-                                        <div key={index} className="shadow-lg h-fit rounded-lg mb-2 ease-in-out transition-all duration-1000 lg:hover:scale-105">
-                                            {(ser.id === 1 || ser.id === 2 || ser.id === 5 || ser.id === 6 )&& (
-                                                 <div className="overflow-hidden">
-                                                    <img src={s.img_url} />
-                                                 </div>
-                                            )}
-                                            <div className="px-8 space-y-4 mb-4 mt-4">
-                                                <h1 className="md:text-lg text-center capitalize border-main-color/40 border-b-2 py-1">{s.name}</h1>
-                                                {ser.servicename === 'Manicure & Pedicure' && (
-                                                    <div className=" text-black/60 text-justify">
-                                                        <ul className=" list-inside font-newFont list-disc">
-                                                            <li>
-                                                                {s.desc}
-                                                            </li>
-                                                        </ul>
+                                <div className="p-4 cursor-pointer">
+                                    <div className=" grid gap-4 grid-cols-4">
+                                        {ser.service.map((s , index) => (
+                                            <div key={index} className="shadow-lg h-fit rounded-lg mb-2 ease-in-out transition-all duration-1000 lg:hover:scale-105">
+                                                {(ser.id === 1 || ser.id === 2 || ser.id === 5 || ser.id === 6 )&& (
+                                                    <div className="overflow-hidden">
+                                                        <img src={s.img_url} />
                                                     </div>
                                                 )}
-                                                <div className="text-xl tracking-wide text-center">
-                                                    {s.price}
+                                                <div className="px-8 space-y-4 mb-4 mt-4">
+                                                    <h1 className="md:text-lg text-center capitalize border-main-color/40 border-b-2 py-1">{s.name}</h1>
+                                                    {ser.servicename === 'Manicure & Pedicure' && (
+                                                        <div className=" text-black/60 text-justify">
+                                                            <ul className=" list-inside font-newFont list-disc">
+                                                                <li>
+                                                                    {s.desc}
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    )}
+                                                    <div className="text-xl tracking-wide text-center">
+                                                        {s.price}
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    ))}
+                                        ))}
+                                    </div>
                                 </div>
-                            </div>
-                       </div>
-                    ))}
+                        </div>
+                        ))}
+                    </Slide>
                 </div>
             </div>
         </section>

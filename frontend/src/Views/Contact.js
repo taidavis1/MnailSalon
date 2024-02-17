@@ -11,10 +11,9 @@ export default function Contact(){
             </div>
             <div className="mx-auto md:max-w-screen-2xl cursor-pointer">
                 <div className="grid grid-cols-1 text-justify md:gap-8 lg:grid-cols-3 ">
-                    <div className="col-span-2 md:w-full w-screen p-4 space-y-4 lg:space-y-8 h-96 transition ease-in-out duration-200 delay-100 hover:opacity-50">
+                    <div className="col-span-2 md:w-full w-screen p-4 space-y-4 h-full lg:space-y-8 transition ease-in-out duration-200 delay-100 hover:opacity-50">
                         <img src={spapic} alt="" />
                     </div>
-
                     <div className="p-4 lg:mt-20 space-y-4 lg:space-y-8 lg:text-justify lg:grid justify-center text-center">
                         <div className="">
                             <div className="grid grid-cols-1 p-4 space-y-5">
@@ -30,13 +29,13 @@ export default function Contact(){
                                             </a>
                                         </li>
                                         <li>
-                                            <a className="transition text-black t-underline t-underline-black border-b-yellow-500" href="tel:14104376300">
+                                            <a className="transition text-black t-underline t-underline-black border-b-yellow-500" href="tel:9729430322">
                                                 Phone#: (972) 943-0322
                                             </a>
                                         </li>
                                         <li>
-                                            <a className="transition text-black t-underline t-underline-black border-b-yellow-500" href="mailto:dv_nailsspa@yahoo.com">
-                                                Email: mnails@gmail.com
+                                            <a className="transition text-black t-underline t-underline-black border-b-yellow-500" href="mailto:mspabeautynails@gmail.com">
+                                                Email: mspabeautynails@gmail.com
                                             </a>
                                         </li>
                                    </ul>
@@ -47,32 +46,32 @@ export default function Contact(){
                                     <ul className="space-y-4 text-sm mt-4">
                                         <li>
                                             <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                                Mon: 10:00 am - 7:30 pm
+                                                Mon: 9:30 am - 7:30 pm
                                             </span>
                                         </li>
                                         <li>
                                             <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                                Tues: 10:00 am - 7:30 pm
+                                                Tues:  9:30 am - 7:30 pm
                                             </span>
                                         </li>
                                         <li>
                                             <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                                Wed: 10:00 am - 7:30 pm
+                                                Wed:  9:30 am - 7:30 pm
                                             </span>
                                         </li>
                                         <li>
                                             <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                                Thu: 10:00 am - 7:30 pm
+                                                Thu:  9:30 am - 7:30 pm
                                             </span>
                                         </li>
                                         <li>
                                             <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                                Fri: 10:00 am - 7:30 pm
+                                                Fri:  9:30 am - 7:30 pm
                                             </span>
                                         </li>
                                         <li>
                                             <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                                Sat: 10:00 am - 7:00 pm
+                                                Sat: 9:00 am - 7:00 pm
                                             </span>
                                         </li>
                                         <li>
@@ -93,8 +92,8 @@ export default function Contact(){
                     </div>
                 </div>
             </div>
-            <div className="grid justify-items-center mt-96 pt-72">
-            <iframe className="w-full md:px-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.0576374309658!2d-96.76750532313976!3d33.00225587357038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c22114ed50c57%3A0xf813007a332e70df!2sM%20Spa%20%26%20Beauty%20Nails!5e0!3m2!1sen!2sus!4v1707705637970!5m2!1sen!2sus"  height="600" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div className="grid justify-items-center">
+                <iframe className="w-full md:px-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.0576374309658!2d-96.76750532313976!3d33.00225587357038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c22114ed50c57%3A0xf813007a332e70df!2sM%20Spa%20%26%20Beauty%20Nails!5e0!3m2!1sen!2sus!4v1707705637970!5m2!1sen!2sus"  height="600" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
 

@@ -8,6 +8,7 @@ import DataHome from "../Components/DataHome";
 import SwiperReview from "../Components/SwiperReview";
 import Popup from "../Components/Popup";
 import Yelp from "../img/yelp.jpg";
+import {Fade , Slide , JackInTheBox} from "react-awesome-reveal";
 function importImg(r){
     return r.keys().map(r);
 }
@@ -45,163 +46,172 @@ export default function Home(){
                                 </ul>
                             </div>
                         </div>
-                        <button className="hover:bg-white/0 hover:border-[1px] hover:border-black transition duration-200 delay-100 md:text-xl text-white text-lg py-3 group cursor-pointer px-12 bg-[#da3b85] md:tracking-wide">
+                        <button className="hover:bg-white/0 hover:border-[1px] hover:border-black transition duration-200 delay-100 md:text-xl text-white text-lg py-3 group cursor-pointer px-12 bg-main-color md:tracking-wide">
                             <a className = "group-hover:text-black transition duration-200 delay-100 font-extrabold">Book Appointment</a>
                         </button>
                     </div>
                 </div>
-
-                <div className="p-5 lg:p-8 space-y-4">
-                    <div className="lg:p-4 p-2 mx-auto max-w-screen-xl">
-                        <div className=" grid gap-12  lg:gap-24 place-items-center lg:grid-cols-3">
-                            <div className=" cursor-pointer flex text-center justify-center items-center space-y-5 flex-col">
-                                <img className="w-28" src={nailIcon} alt="#" />
-                                <div className=" flex flex-col space-y-5">
-                                    <div className=" space-y-2">
-                                        <div>
-                                            <h2 className=" text-2xl font-Marcok">Custom Design</h2>
+                <Fade duration={1500} delay={100}>
+                    <div className="p-5 lg:p-8 space-y-4">
+                        <div className="lg:p-4 p-2 mx-auto max-w-screen-xl">
+                            <div className=" grid gap-12  lg:gap-24 place-items-center lg:grid-cols-3">
+                                <div className=" cursor-pointer flex text-center justify-center items-center space-y-5 flex-col">
+                                    <img className="w-28" src={nailIcon} alt="#" />
+                                    <div className=" flex flex-col space-y-5">
+                                        <div className=" space-y-2">
+                                            <div>
+                                                <h2 className=" text-2xl font-Marcok">Custom Design</h2>
+                                            </div>
+                                            <div>
+                                                <span className="">
+                                                    Our custom nail designs reflect your personal style, featuring everything from intricate patterns to bold colors.
+                                                </span>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <span className="">
-                                                Our custom nail designs reflect your personal style, featuring everything from intricate patterns to bold colors.
+                                        <div className="">
+                                            <button onClick={() => ChangeUrl('Services/#1')} className=" py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
+                                                <span className=" transition ease-in-out duration-200 delay-100 text-lg group-hover:text-white">
+                                                    View More
                                             </span>
+                                            </button>
                                         </div>
                                     </div>
-                                    <div className="">
-                                        <button onClick={() => ChangeUrl('Services/#1')} className=" py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
+                                </div>
+                                <div className=" cursor-pointer flex text-center justify-center items-center space-y-5 flex-col">
+                                    <img className="w-28" src={gelx} alt="#" />
+                                    <div className=" flex flex-col space-y-5">
+                                        <div className=" space-y-2">
+                                            <div>
+                                                <h2 className=" text-2xl font-Marcok">Gel-X</h2>
+                                            </div>
+                                            <div>
+                                                <span className="">
+                                                    Offering the latest in nail enhancement technology, 
+                                                    Gel-X extensions provide durability and a natural look.                                        
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div className="">
+                                            <button onClick={() => ChangeUrl('Services/#2')} className=" py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
                                             <span className=" transition ease-in-out duration-200 delay-100 text-lg group-hover:text-white">
-                                                View More
-                                        </span>
-                                        </button>
+                                                    View More
+                                            </span>
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className=" cursor-pointer flex text-center justify-center items-center space-y-5 flex-col">
-                                <img className="w-28" src={gelx} alt="#" />
-                                <div className=" flex flex-col space-y-5">
-                                    <div className=" space-y-2">
-                                        <div>
-                                            <h2 className=" text-2xl font-Marcok">Gel-X</h2>
+                                <div className=" cursor-pointer p-2 flex text-center justify-center items-center space-y-5 flex-col">
+                                    <img className="w-28 " src={eyeLash} alt="#" />
+                                    <div className=" flex flex-col space-y-5">
+                                        <div className=" space-y-2">
+                                            <div>
+                                                <h2 className=" text-2xl font-Marcok">Eyelash</h2>
+                                            </div>
+                                            <div>
+                                                <span className="">
+                                                    From subtle to dramatic, our eyelash extensions are customized to 
+                                                    enhance your natural beauty
+                                                </span>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <span className="">
-                                                Offering the latest in nail enhancement technology, 
-                                                Gel-X extensions provide durability and a natural look.                                        
+                                        <div className="">
+                                            <button onClick={() => ChangeUrl('Services/#6')} className=" py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
+                                            <span className=" transition ease-in-out duration-200 delay-100 text-lg group-hover:text-white">
+                                                    View More
                                             </span>
+                                            </button>
                                         </div>
-                                    </div>
-                                    <div className="">
-                                        <button onClick={() => ChangeUrl('Services/#2')} className=" py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
-                                        <span className=" transition ease-in-out duration-200 delay-100 text-lg group-hover:text-white">
-                                                View More
-                                        </span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className=" cursor-pointer p-2 flex text-center justify-center items-center space-y-5 flex-col">
-                                <img className="w-28 " src={eyeLash} alt="#" />
-                                <div className=" flex flex-col space-y-5">
-                                    <div className=" space-y-2">
-                                        <div>
-                                            <h2 className=" text-2xl font-Marcok">Eyelash</h2>
-                                        </div>
-                                        <div>
-                                            <span className="">
-                                                From subtle to dramatic, our eyelash extensions are customized to 
-                                                enhance your natural beauty
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div className="">
-                                        <button onClick={() => ChangeUrl('Services/#6')} className=" py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
-                                        <span className=" transition ease-in-out duration-200 delay-100 text-lg group-hover:text-white">
-                                                View More
-                                        </span>
-                                        </button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="lg:p-4 p-2 mx-auto max-w-screen-xl">
-                    <div className=" grid gap-8 lg:grid-cols-2">
-                        <div className=" h-fit shadow-md cursor-pointer">
-                            <img className=" hover:opacity-60 transition-opacity ease-in-out duration-200 delay-100" src={secondimg} />
+                </Fade>
+                <Fade duration={1500} delay={100}>
+                    <div className="lg:p-4 p-2 mx-auto max-w-screen-xl">
+                        <div className=" grid gap-8 lg:grid-cols-2">
+                            <JackInTheBox cascade>
+                                <div className=" h-fit shadow-md cursor-pointer">
+                                    <img className=" hover:opacity-60 transition-opacity ease-in-out duration-200 delay-100" src={secondimg} />
+                                </div>
+                            </JackInTheBox>
+                            <Slide direction="right" cascade>
+                                <div className="flex flex-col xl:py-14 space-y-2 lg:space-y-4 px-6 lg:px-8">
+                                    <h3 className=" font-Lora tracking-wide text-center lg:text-start text-3xl lg:text-5xl">Who we Are ?</h3>
+                                    <div className=" font-newFont space-y-3">
+                                        <span className="lg:text-xl text-lg text-black/90">
+                                            Welcome to M Nail & Lash, a leading nail salon located in the heart of Plano, Texas. 
+                                            Renowned for our exceptional services in custom nail design, Gel-X extensions, 
+                                            and eyelash enhancements, we are dedicated to offering a unique and personalized beauty 
+                                            experience to each of our clients. Our salon is the perfect destination for those looking 
+                                            to indulge in a bit of pampering and self-care, while also seeking innovative beauty solutions 
+                                            tailored specifically to their needs.
+                                        </span>
+                                        <ul className="text-lg text-black/60 space-y-2 list-inside list-disc">
+                                            <li>
+                                                Our skilled professionals are dedicated to bringing you the latest 
+                                                beauty solutions with a focus on quality and safety.
+                                            </li>
+                                            <li>
+                                                We prioritize understanding your beauty desires, crafting services that 
+                                                perfectly align with your vision.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className=" hidden lg:flex justify-center">
+                                        <button className=" py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
+                                            <span className=" transition ease-in-out duration-200 delay-100 text-lg group-hover:text-white">
+                                                Book Appointment
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </Slide>
                         </div>
-                        <div className="flex flex-col xl:py-14 space-y-2 lg:space-y-4 px-6 lg:px-8">
-                            <h3 className=" font-Lora tracking-wide text-center lg:text-start text-3xl lg:text-5xl">Who we Are ?</h3>
-                            <div className=" font-newFont space-y-3">
-                                <span className="lg:text-xl text-lg text-black/90">
-                                    Welcome to M Nail & Lash, a leading nail salon located in the heart of Plano, Texas. 
-                                    Renowned for our exceptional services in custom nail design, Gel-X extensions, 
-                                    and eyelash enhancements, we are dedicated to offering a unique and personalized beauty 
-                                    experience to each of our clients. Our salon is the perfect destination for those looking 
-                                    to indulge in a bit of pampering and self-care, while also seeking innovative beauty solutions 
-                                    tailored specifically to their needs.
-                                </span>
-                                <ul className="text-lg text-black/60 space-y-2 list-inside list-disc">
-                                    <li>
-                                        Our skilled professionals are dedicated to bringing you the latest 
-                                        beauty solutions with a focus on quality and safety.
-                                    </li>
-                                    <li>
-                                        We prioritize understanding your beauty desires, crafting services that 
-                                        perfectly align with your vision.
-                                    </li>
-                                </ul>
+                    </div>
+                </Fade>
+
+                <Slide duration={1500} delay={200}>
+                    <div className="lg:p-4 p-2 mx-auto max-w-screen-xl">
+                        <div className=" flex flex-col space-y-12">
+                            <div className="grid gap-4 lg:gap-8 lg:grid-cols-2">
+                                <div className="flex mt-6 lg:mt-14 flex-col space-y-2 lg:space-y-4">
+                                    <span className=" lg:text-start text-center font-newFont tracking-wide text-black/50">Vibrant , Gleaming , Dazzling</span>
+                                    <h1 className=" lg:text-start text-center text-3xl lg:text-5xl">
+                                        Illuminate Your Look with Radiant Nails!
+                                    </h1>
+                                </div>
+                                <div className="cursor-pointer">
+                                    <img className=" hover:opacity-60 transition-opacity ease-in-out duration-200 delay-100" src={thirdimg} />
+                                </div>
+                            </div>
+                            <div className="grid gap-4 lg:gap-8 lg:grid-cols-3">
+                                {DataHome.map((d) => (
+                                    <div key={d.id} className="max-w-lg cursor-pointer shadow-lg rounded-lg mb-2 ease-in-out transition-all duration-1000 lg:hover:scale-105">
+                                        <div className="overflow-hidden">
+                                            <img src={d.img} alt="#" className="w-full" />
+                                        </div>
+                                        <div className="text-center px-6 py-4 space-y-3 mb-4">
+                                            <h1 className=" text-lg  md:text-xl capitalize border-b-2 font-semibold border-main-color/20">{d.name}</h1>
+                                            <div>
+                                                <span className=" text-md font-newFont text-black/70 font-bold space-y-2">
+                                                    {d.description}
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))}
                             </div>
                             <div className=" hidden lg:flex justify-center">
-                                <button className=" py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
+                                <button onClick={() => ChangeUrl('Services')} className=" py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
                                     <span className=" transition ease-in-out duration-200 delay-100 text-lg group-hover:text-white">
-                                        Book Appointment
+                                        View More
                                     </span>
                                 </button>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div className="lg:p-4 p-2 mx-auto max-w-screen-xl">
-                    <div className=" flex flex-col space-y-12">
-                        <div className="grid gap-4 lg:gap-8 lg:grid-cols-2">
-                            <div className="flex mt-6 lg:mt-14 flex-col space-y-2 lg:space-y-4">
-                                <span className=" lg:text-start text-center font-newFont tracking-wide text-black/50">Vibrant , Gleaming , Dazzling</span>
-                                <h1 className=" lg:text-start text-center text-3xl lg:text-5xl">
-                                    Illuminate Your Look with Radiant Nails!
-                                </h1>
-                            </div>
-                            <div className="cursor-pointer">
-                                <img className=" hover:opacity-60 transition-opacity ease-in-out duration-200 delay-100" src={thirdimg} />
-                            </div>
-                        </div>
-                        <div className="grid gap-4 lg:gap-8 lg:grid-cols-3">
-                            {DataHome.map((d) => (
-                                <div key={d.id} className="max-w-lg cursor-pointer shadow-lg rounded-lg mb-2 ease-in-out transition-all duration-1000 lg:hover:scale-105">
-                                    <div className="overflow-hidden">
-                                        <img src={d.img} alt="#" className="w-full" />
-                                    </div>
-                                    <div className="text-center px-6 py-4 space-y-3 mb-4">
-                                        <h1 className=" text-lg  md:text-xl capitalize border-b-2 font-semibold border-main-color/20">{d.name}</h1>
-                                        <div>
-                                            <span className=" text-md font-newFont text-black/70 font-bold space-y-2">
-                                                {d.description}
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                        <div className=" hidden lg:flex justify-center">
-                            <button onClick={() => ChangeUrl('Services')} className=" py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
-                                <span className=" transition ease-in-out duration-200 delay-100 text-lg group-hover:text-white">
-                                    View More
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+                </Slide>
                 <div className="lg:p-4 p-2 bg-cover lg:bg-center lg:h-[518px] bg-no-repeat w-screen bg-bg2 relative">
                     <div className="px-12 lg:ml-28 py-8 space-y-5 lg:py-24 md:space-y-6">
                         <div className=" flex flex-col space-y-6 lg:space-y-8">
@@ -211,9 +221,9 @@ export default function Home(){
                                 </span>
                             </div>
                         <div className=" max-w-lg flex flex-col space-y-5 text-center">
-                                <span className="font-Lora text-4xl font-extrabold lg:text-6xl">
-                                        10%  Off
-                                </span>
+                                <Fade delay={100} duration={300} cascade className="font-Lora text-4xl font-extrabold lg:text-6xl">
+                                    10%  Off
+                                </Fade>
                                 <span className="font-Lora text-black/60 text-xl uppercase">
                                     on all pedicure services
                                 </span>

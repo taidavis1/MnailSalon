@@ -8,32 +8,36 @@ export default function Footer(){
                 <div className="grid lg:space-x-12 grid-cols-1 gap-12 lg:grid-cols-3">
                     <div className="grid justify-items-center">
                         <div>
-                            <h2 className="flex md:hidden text-2xl font-Lora italic tracking-wider font-bold text-gray-900">Nails Tech</h2>
+                            <div className=" flex items-center flex-col">
+                                <h2 className="flex md:hidden text-2xl font-Lora italic tracking-wider font-bold text-gray-900">M Spa Beauty</h2>
+                                <h2 className="flex md:hidden text-xl font-Lora italic font-thin tracking-wider text-gray-900">Lash & Nail</h2>
+                            </div>
                             <img alt ="#" className="md:w-28 hidden md:flex" src={Logo} />
                         </div> 
                         <p className="mt-6 max-w-md tracking-wide leading-relaxed text-gray-500 sm:max-w-xs sm:text-left">
-                            To be the place for you to unwind and rejuvenate. Nails Tech is committed to delivering the peace, comfort, and beauty that you deserve. 
-                            To be highest standard in service and sanitation, we promote continuing education for our technicians so that you are receiving the very best.
+                                    A leading nail salon located in the heart of Plano, Texas. Our salon is the perfect destination for those looking 
+                                    to indulge in a bit of pampering and self-care, while also seeking innovative beauty solutions 
+                                    tailored specifically to their needs.
                         </p>
                 
                         <ul className="mt-8 flex justify-center gap-6 md:gap-8">
                             <li className="">
-                                <a href="https://www.facebook.com/profile.php?id=100088194774286" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
-                                    <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png"/>
+                                <a href="https://www.yelp.com/biz/m-spa-and-beauty-nails-plano-3" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
+                                    <img src="https://img.icons8.com/fluent/30/000000/yelp.png"/>
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto:mnails@gmail.com" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
+                                <a href="mailto:mspabeautynails@gmail.com" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
                                     <img src="https://img.icons8.com/fluent/30/000000/gmail-new.png"/>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/nailstech.md/" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
+                                <a href="https://www.instagram.com/mspabeautynails/" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
                                     <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png"/>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.google.com/maps/place/NAILS+TECH/@39.125234,-76.5347105,15z/data=!4m6!3m5!1s0x89b7feb081c4ffd5:0xc692714eadeeba94!8m2!3d39.125234!4d-76.5347105!16s%2Fg%2F1tlqqwsn?entry=ttu" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
+                                <a href="https://www.google.com/maps/place/M+Spa+%26+Beauty+Nails/@33.0022604,-96.7675107,17z/data=!3m1!4b1!4m6!3m5!1s0x864c22114ed50c57:0xf813007a332e70df!8m2!3d33.0022559!4d-96.7649304!16s%2Fg%2F11bx1s17w_?entry=ttu" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
                                     <img src="https://img.icons8.com/fluency/30/google-logo.png"/>
                                 </a>
                             </li>
@@ -93,6 +97,16 @@ export default function Footer(){
                                         Eyelash Extension
                                     </a>
                                 </li>
+                                <li>
+                                    <a target="_blank" href="/Services" className=" transition text-black t-underline t-underline-black border-b-yellow-500">
+                                        Eyebrows Laminate
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="/Services" className=" transition text-black t-underline t-underline-black border-b-yellow-500">
+                                        Eyebrows Microblading
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                         <div className="text-center sm:text-left">
@@ -100,32 +114,32 @@ export default function Footer(){
                             <ul className="mt-8 space-y-4 text-sm">
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Mon: 10:00 am - 7:30 pm
+                                        Mon: 9:30 am - 7:30 pm
                                     </a>
                                 </li>
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Tues: 10:00 am - 7:30 pm
+                                        Tues: 9:30 am - 7:30 pm
                                     </a>
                                 </li>
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Wed: 10:00 am - 7:30 pm
+                                        Wed: 9:30 am - 7:30 pm
                                     </a>
                                 </li>
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Thu: 10:00 am - 7:30 pm
+                                        Thu: 9:30 am - 7:30 pm
                                     </a>
                                 </li>
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Fri: 10:00 am - 7:30 pm
+                                        Fri: 9:30 am - 7:30 pm
                                     </a>
                                 </li>
                                 <li>
                                     <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Sat: 10:00 am - 7:00 pm
+                                        Sat: 9:00 am - 7:00 pm
                                     </a>
                                 </li>
                                 <li>
@@ -154,12 +168,12 @@ export default function Footer(){
                                             d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                                             />
                                         </svg>
-                                        <a href="mailto:mnails@gmail.com" className="flex-1 text-gray-700">mnails@gmail.com</a>
+                                        <a href="mailto:mspabeautynails@gmail.com" className="flex-1 text-gray-700">mspabeautynails@gmail.com</a>
                                     </a>
                                 </li>
       
                                 <li>
-                                    <a className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end" href="tel:4104376300">
+                                    <a className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end" href="tel:9729430322">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             className="h-5 w-5 shrink-0 text-gray-900"
