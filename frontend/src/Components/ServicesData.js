@@ -221,17 +221,17 @@ const ServicesData = [
             {
                 name : 'Cluster',
                 price : '$60',
-                img_url: require('../img/eyelash/1.jpg')
+                img_url: require('../img/eyelash/4.jpg')
             },
             {
                 name : 'Classic',
                 price : '$99+',
-                img_url: require('../img/eyelash/4.jpg')
+                img_url: require('../img/eyelash/7.jpg')
             },
             {
                 name : 'Hybrid',
                 price : '$125+',
-                img_url: require('../img/eyelash/2.jpg')
+                img_url: require('../img/eyelash/1.jpg')
             },
             {
                 name : 'Volume',
@@ -239,7 +239,7 @@ const ServicesData = [
                 img_url: require('../img/eyelash/6.jpg')
             }
         ],
-        img_url: require('../img/eyelash/6.jpg')
+        img_url: require('../img/eyelash/5 (2).jpg')
     },
     {
         id : 7,

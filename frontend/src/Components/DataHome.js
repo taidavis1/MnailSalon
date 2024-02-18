@@ -29,7 +29,7 @@ const DataHome = [
         id: 5,
         name: 'Gel-X',
         description: 'Transform your nails with Gel-X extensions, the latest in nail innovation. Enjoy durable, lightweight, and natural-looking nails tailored to your desired length and shape for weeks.',
-        img: require("../img/gelx2.jpg"),
+        img: require("../img/gelxtest.png"),
     },
 ];
 
