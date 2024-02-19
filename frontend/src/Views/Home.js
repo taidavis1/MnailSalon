@@ -47,7 +47,7 @@ export default function Home(){
                             </div>
                         </div>
                         <button className="hover:bg-white/0 hover:border-[1px] hover:border-black transition duration-200 delay-100 md:text-xl text-white text-lg py-3 group cursor-pointer px-12 bg-main-color md:tracking-wide">
-                            <a className = "group-hover:text-black transition duration-200 delay-100 font-extrabold">Book Appointment</a>
+                            <a target="_blank" href="https://www.fresha.com/a/m-spa-beauty-nails-plano-308-south-coit-road-yva9f2lc/booking?pId=1162111" className = "group-hover:text-black transition duration-200 delay-100 font-extrabold">Book Appointment</a>
                         </button>
                     </div>
                 </div>
@@ -159,7 +159,10 @@ export default function Home(){
                                         </ul>
                                     </div>
                                     <div className=" hidden lg:flex justify-center">
-                                        <button className=" py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
+                                        <button onClick={(e) => {
+                                            e.preventDefault();
+                                            window.open('https://www.fresha.com/a/m-spa-beauty-nails-plano-308-south-coit-road-yva9f2lc/booking?pId=1162111' , '_blank');
+                                        }} className=" py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
                                             <span className=" transition ease-in-out duration-200 delay-100 text-lg group-hover:text-white">
                                                 Book Appointment
                                             </span>
@@ -229,7 +232,10 @@ export default function Home(){
                                 </span>
                             </div>
                             <div className=" flex max-w-lg justify-center">
-                                <button className=" py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
+                                <button onClick={(e) => {
+                                    e.preventDefault();
+                                    window.open('https://www.fresha.com/a/m-spa-beauty-nails-plano-308-south-coit-road-yva9f2lc/booking?pId=1162111', '_blank');
+                                }} className=" py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
                                     <span className=" transition ease-in-out duration-200 delay-100 text-lg group-hover:text-white">
                                         Book Appointment
                                     </span>
@@ -247,6 +253,37 @@ export default function Home(){
                         </div>
                     </div>
                 </div>
+
+                <div className="lg:p-4 p-2 bg-cover lg:bg-center lg:h-[518px] bg-no-repeat w-screen bg-gpage4 relative">
+                    <div className="px-12 lg:ml-28 py-8 space-y-5 lg:py-24 md:space-y-6">
+                        <div className=" flex flex-col space-y-6 lg:space-y-8">
+                            <div className=" max-w-lg text-center">
+                                <span className=" font-Lora text-xl lg:text-2xl">
+                                    Refer  a friend and receive discount on your next Appointment.
+                                </span>
+                            </div>
+                            <div className=" max-w-lg flex flex-col space-y-5 text-center">
+                                <Fade delay={100} duration={300} cascade className="font-Lora text-main-color text-4xl font-extrabold lg:text-6xl">
+                                    Referal Bonus
+                                </Fade>
+                                <span className="font-Lora text-black/60 text-lg capitalize">
+                                    After your friend complete their first Appointment
+                                </span>
+                            </div>
+                            <div className=" flex max-w-lg justify-center">
+                                <button onClick={(e) => {
+                                    e.preventDefault();
+                                    window.open('https://www.fresha.com/a/m-spa-beauty-nails-plano-308-south-coit-road-yva9f2lc/booking?pId=1162111', '_blank');
+                                }} className=" py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
+                                    <span className=" transition ease-in-out duration-200 delay-100 text-lg group-hover:text-white">
+                                        Book Appointment
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="lg:p-4 p-2 mx-auto max-w-screen-xl">
                     <div className=" flex flex-col space-y-4 lg:space-y-6">
                         <span className = "text-center text-xl lg:text-2xl text-black/50">Rewards</span>

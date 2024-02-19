@@ -80,7 +80,10 @@ export default function Contact(){
                                             </span>
                                         </li>
                                     </ul>
-                                    <button className=" mt-5 py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
+                                    <button onClick={(e) => {
+                                        e.preventDefault();
+                                        window.open('https://www.fresha.com/a/m-spa-beauty-nails-plano-308-south-coit-road-yva9f2lc/booking?pId=1162111', '_blank');
+                                    }} className=" mt-5 py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
                                        <span className=" transition ease-in-out duration-200 delay-100 text-lg group-hover:text-white">
                                             Book Now
                                        </span>
