@@ -215,45 +215,6 @@ export default function Home(){
                         </div>
                     </div>
                 </Slide>
-                <div className="lg:p-4 p-2 bg-cover lg:bg-center lg:h-[518px] bg-no-repeat w-screen bg-bg2 relative">
-                    <div className="px-12 lg:ml-28 py-8 space-y-5 lg:py-24 md:space-y-6">
-                        <div className=" flex flex-col space-y-6 lg:space-y-8">
-                            <div className=" max-w-lg text-center">
-                                <span className=" font-Lora text-xl lg:text-2xl">
-                                    Our goal is to ensure every woman feels beautiful, joyful, and cherished!
-                                </span>
-                            </div>
-                        <div className=" max-w-lg flex flex-col space-y-5 text-center">
-                                <Fade delay={100} duration={300} cascade className="font-Lora text-4xl font-extrabold lg:text-6xl">
-                                    10%  Off
-                                </Fade>
-                                <span className="font-Lora text-black/60 text-xl uppercase">
-                                    on all pedicure services
-                                </span>
-                            </div>
-                            <div className=" flex max-w-lg justify-center">
-                                <button onClick={(e) => {
-                                    e.preventDefault();
-                                    window.open('https://www.fresha.com/a/m-spa-beauty-nails-plano-308-south-coit-road-yva9f2lc/booking?pId=1162111', '_blank');
-                                }} className=" py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
-                                    <span className=" transition ease-in-out duration-200 delay-100 text-lg group-hover:text-white">
-                                        Book Appointment
-                                    </span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="p-8 mx-auto max-w-screen-xl">
-                    <div className=" flex flex-col space-y-4 lg:space-y-6">
-                        <span className = "text-center text-xl lg:text-2xl text-black/50">Testimonial</span>
-                        <span className = "text-center text-3xl lg:text-5xl text-black">Our Customer Review</span>
-                        <div>
-                            <SwiperReview />
-                        </div>
-                    </div>
-                </div>
-
                 <div className="lg:p-4 p-2 bg-cover lg:bg-center lg:h-[518px] bg-no-repeat w-screen bg-gpage4 relative">
                     <div className="px-12 lg:ml-28 py-8 space-y-5 lg:py-24 md:space-y-6">
                         <div className=" flex flex-col space-y-6 lg:space-y-8">
@@ -283,7 +244,15 @@ export default function Home(){
                         </div>
                     </div>
                 </div>
-
+                <div className="p-8 mx-auto max-w-screen-xl">
+                    <div className=" flex flex-col space-y-4 lg:space-y-6">
+                        <span className = "text-center text-xl lg:text-2xl text-black/50">Testimonial</span>
+                        <span className = "text-center text-3xl lg:text-5xl text-black">Our Customer Review</span>
+                        <div>
+                            <SwiperReview />
+                        </div>
+                    </div>
+                </div>
                 <div className="lg:p-4 p-2 mx-auto max-w-screen-xl">
                     <div className=" flex flex-col space-y-4 lg:space-y-6">
                         <span className = "text-center text-xl lg:text-2xl text-black/50">Rewards</span>
