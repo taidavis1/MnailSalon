@@ -2,15 +2,15 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
-import Popup1 from '../img/popup1.png';
-// import Popup2 from '../img/popup2.png';
+import Popup1 from '../img/2024/8.png';
+import Popup2 from '../img/2024/9.png';
 // import Popup4 from "../img/popup4.png";
 // import Popup5 from "../img/popup5.png";
 
 const Popup = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    const images = [Popup1];
+    const images = [Popup1 , Popup2];
     const handleButtonClick = () => {
         if (currentImageIndex < images.length - 1) {
             setCurrentImageIndex(currentImageIndex + 1);
