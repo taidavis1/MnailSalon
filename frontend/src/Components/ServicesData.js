@@ -166,7 +166,7 @@ const ServicesData = [
             },
             {
                 name: 'Full Leg / For Leg',
-                price: '$65 + 440+'
+                price: '$65+ / $40+'
             },
             {
                 name: 'Full Arm / For Arm',
@@ -305,6 +305,38 @@ const ServicesData = [
     },
     {
         id : 9,
+        servicename: 'Head Spa',
+        service: [
+            {
+                name : 'Hair And Scalp Recovery',
+                price : '$50 / 60 min',
+                img_url: require('../img/headspa.png')
+            },
+            {
+                name : 'Shampoo & Mini Facial',
+                price : '$80 / 60 min'
+            },
+            {
+                name : 'Polish Hand/ Toe',
+                price : '$6/$10'
+            },
+            {
+                name : 'Head Spa',
+                price : '$120 / 90 min'
+            },
+            {
+                name : 'Head Spa & Back Facial',
+                price : '$160 / 90 min'
+            },
+            {
+                name : 'M SPA BEAUTY ( Head Spa + Back Facial + Detox Manicure/ Dip/ Gel + Detox Pedicure)',
+                price : '$280 / 90 min'
+            }
+        ],
+        img_url : require('../img/headspa.png')
+    },
+    {
+        id : 10,
         servicename: 'Drinks Offer',
         service: [
             {
