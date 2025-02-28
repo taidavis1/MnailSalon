@@ -61,7 +61,7 @@ function Navbar(){
                     </a>
                     <button
                         className= {Scroll? "transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color border-[1px] group cursor-pointer px-4 py-3 capitalize":"hover:bg-white/20 duration-200 ease-in-out delay-100 bg-main-color group cursor-pointer px-4 py-3 capitalize"}>
-                        <a href = "https://www.fresha.com/a/m-spa-beauty-nails-plano-308-south-coit-road-yva9f2lc/booking?pId=1162111" target="_blank" className = {Scroll?"group-hover:text-white transition ease-in-out duration-200 tracking-wider uppercase":"tracking-wider uppercase"}>Book Now</a>
+                        <a href = "https://www.lldtek.org/salon/appt/VkZoZk1UQXdPREk9" target="_blank" className = {Scroll?"group-hover:text-white transition ease-in-out duration-200 tracking-wider uppercase":"tracking-wider uppercase"}>Book Now</a>
                     </button>
                 </div>
             </nav>
@@ -74,7 +74,7 @@ function Navbar(){
                         <a onClick={() => setClick(!Click)} className="" href="/Contact">Contact us</a>
                         <button
                             className="hover:bg-black group  transition ease-out duration-200 cursor-pointer px-4 py-3 border-black border-2 capitalize tracking-wide">
-                            <a target="_blank" href="https://www.fresha.com/a/m-spa-beauty-nails-plano-308-south-coit-road-yva9f2lc/booking?pId=1162111" className = "group-hover:text-white">Book Now</a>
+                            <a target="_blank" href="https://www.lldtek.org/salon/appt/VkZoZk1UQXdPREk9" className = "group-hover:text-white">Book Now</a>
                         </button>
                     </div>
                     <div className="flex space-x-10 text-2xl justify-center">

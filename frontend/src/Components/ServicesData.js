@@ -27,7 +27,7 @@ const ServicesData = [
             {
                 id : 4,
                 name: 'Basic Pedicure/Manicure',
-                price: '$35/$20',
+                price: '$35/$22',
                 img_url : require('../img/manicure/4.jpg'),
                 desc: 'Foot Soak + Nail Shaping + Cutigie Care + Soft Pumice Foot Scrub + Sugar Exfoliating Scrub + Lotion Foot Massage + Color Polish.'
             }, 
@@ -82,7 +82,7 @@ const ServicesData = [
             {
                 id : 1,
                 name : 'Gel Manicure',
-                price: '$40'
+                price: '$42'
             },
             {
                 id : 2,

@@ -63,7 +63,7 @@ export default function Footer(){
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.fresha.com/a/m-spa-beauty-nails-plano-308-south-coit-road-yva9f2lc/booking?pId=1162111" target="_blank" className="transition text-black t-underline t-underline-black border-b-yellow-500">
+                                    <a href="https://www.lldtek.org/salon/appt/VkZoZk1UQXdPREk9" target="_blank" className="transition text-black t-underline t-underline-black border-b-yellow-500">
                                         Booking
                                     </a>
                                 </li>

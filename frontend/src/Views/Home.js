@@ -47,7 +47,7 @@ export default function Home(){
                             </div>
                         </div>
                         <button className="hover:bg-white/0 hover:border-[1px] hover:border-black transition duration-200 delay-100 md:text-xl text-white text-lg py-3 group cursor-pointer px-12 bg-main-color md:tracking-wide">
-                            <a target="_blank" href="https://www.fresha.com/a/m-spa-beauty-nails-plano-308-south-coit-road-yva9f2lc/booking?pId=1162111" className = "group-hover:text-black transition duration-200 delay-100 font-extrabold">Book Appointment</a>
+                            <a target="_blank" href="https://www.lldtek.org/salon/appt/VkZoZk1UQXdPREk9" className = "group-hover:text-black transition duration-200 delay-100 font-extrabold">Book Appointment</a>
                         </button>
                     </div>
                 </div>
@@ -161,7 +161,7 @@ export default function Home(){
                                     <div className=" hidden lg:flex justify-center">
                                         <button onClick={(e) => {
                                             e.preventDefault();
-                                            window.open('https://www.fresha.com/a/m-spa-beauty-nails-plano-308-south-coit-road-yva9f2lc/booking?pId=1162111' , '_blank');
+                                            window.open('https://www.lldtek.org/salon/appt/VkZoZk1UQXdPREk9' , '_blank');
                                         }} className=" py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
                                             <span className=" transition ease-in-out duration-200 delay-100 text-lg group-hover:text-white">
                                                 Book Appointment
@@ -234,7 +234,7 @@ export default function Home(){
                             <div className=" flex max-w-lg justify-center">
                                 <button onClick={(e) => {
                                     e.preventDefault();
-                                    window.open('https://www.fresha.com/a/m-spa-beauty-nails-plano-308-south-coit-road-yva9f2lc/booking?pId=1162111', '_blank');
+                                    window.open('https://www.lldtek.org/salon/appt/VkZoZk1UQXdPREk9', '_blank');
                                 }} className=" py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
                                     <span className=" transition ease-in-out duration-200 delay-100 text-lg group-hover:text-white">
                                         Book Appointment
