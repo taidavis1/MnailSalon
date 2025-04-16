@@ -1,139 +1,169 @@
 const ServicesData = [
     {
         id : 1,
-        servicename: 'Manicure & Pedicure',
+        servicename: 'Manicures',
         service: [
             {
                 id : 1,
-                name: 'Herbal Green Tea Pedicure/Manicure',
-                price: '$60/$40',
-                img_url : require('../img/manicure/1.jpg'),
-                desc: 'The aromas of this foot bath will open your sinuses and clear your head to pamper your senses. Natural Chinese herbs will increase blood circulatiuon while protecting and restoring moisture followed with a warm neck wrap to soothe any tensions.',
+                name: 'Classic Manicure',
+                price: '$25',
+                img_url : require('../img/manicure/4.jpg'),
+                desc: 'Nail Trimming, Shaping, cuticle cut, buffing, lotion with a 5 minute massage & finished with your choice of color',
             },
             {
                 id : 2,
-                name: 'Detox Pedicure/Manicure',
-                price: '$80/$47',
+                name: 'Deluxe Manicure',
+                price: '$35',
                 img_url : require('../img/manicure/2.jpg'),
-                desc: 'One of our most enjoybable pedicyres. Includes a charcoal soak , purifying scrub , nourishing mask , and neck therapy. this is followed by parrafin wax treatment and a 25 minute feet and shoulder massage using hot stones and emollient massage cream to soften and soothe'
+                desc: 'Soak, cleanse, shape your nails, trim cuticles, apply collagen gloves to soothe your skin, massage & moisturizing lotion, finish off with hot towels & polish'
             },
             {
                 id : 3,
-                name: 'Organic Pedicure/Manicure',
-                price: '$70/$45',
+                name: 'Heavenly Manicure',
+                price: '$45',
                 img_url : require('../img/manicure/3.jpg'),
-                desc: 'An organic pedicure system with bubbling detox crystal foot bath to eliminate toxins from the body. A pedicure infused with collagen to reduce the eefects of aging skin as the collagen is absorbed by the skin and a relaxing neck therapy and hot stone foot massage to relieve stress'
+                desc: 'Immerse yourself into the ultimate experience with sea salt scrub, hydrating milk & honey butter to smooth & soften rough skin, followed by hot stones reflexology, additional massage, hands, arms'
             },
             {
                 id : 4,
-                name: 'Basic Pedicure/Manicure',
-                price: '$35/$22',
-                img_url : require('../img/manicure/4.jpg'),
-                desc: 'Foot Soak + Nail Shaping + Cutigie Care + Soft Pumice Foot Scrub + Sugar Exfoliating Scrub + Lotion Foot Massage + Color Polish.'
-            }, 
-            
-            {
-                id : 5,
-                name: 'Golden Pedicure/Manicure',
-                price: '$85/$50',
-                img_url : require('../img/manicure/5.jpg'),
-                desc : 'Enjoy the most luxurious pedicure utilizing products from Ceremony of gold which includes a gold soak , scrub , and gel mask. The extremely rejuvenating pedicure with 24K gold ingredients to aid the slowdow of collagen depletion , increasing of ksin elasticity , and stimulating cells to the help tone up the skin. Gold soak with herbal infused foot bath + neck therapy + collagen foot mask + 25 minute feet and shoulder massage wit hhot stones'
-            },
-            {
-                id : 6,
-                name: 'Peppermint Pedicure/Manicure',
-                price: '$50/$30',
-                img_url : require('../img/manicure/6.jpg'),
-                desc: 'Ease your feet into an aroma therapeutic bath rich with tea tree oil, fragrant eucalyptus oil , and Vitamin-e-all-anti-inflammatory. hen enjoy a lavish scrub of mineral sea salt that polishes the skin. An intense heel smoothing treatment with peppermint cream soothes and refreshes like a gentle breeze. Finish with a moisture restoring warm paraffin treatment and a warm neck wrap'
-            },
-            {
-                id : 7,
-                name: 'Citrus or Aloe Vera/Manicure',
-                price: '$70/$40',
-                img_url : require('../img/manicure/7.png'),
-                desc: 'Grapefruit , orange , lemon infused foot bath to eliminate bacterial present on the skin. Our summer citrus pedicure is a symphony of essential oils , vitamin E , and antioxidants formulated to stimulate your senses as it smooth , refines , and c onditions your feet. A fruit rub follows to wipe dead skin and restore moisture. It provides rich vitamins and minerals to give naturally radiant skin with strong healthy nails'
+                name: 'Gold Manicure',
+                price: '$55',
+                img_url : require('../img/manicure/1.jpg'),
+                desc: 'Indulge in the most luxurious manicure by rejuvenating & hydrating your skin with freshly cut cucumbers along with organic mask, followed by hot stones massage on hands, arms, neck & shoulders & finished with hot towels, & polish'
             },
         ],
         img_url : require('../img/manicure/1.jpg'),
     },
     {
-        id : 2,
-        servicename: 'Gel-X',
+        id: 2,
+        servicename: 'Pedicure',
         service: [
             {
                 id : 1,
-                name: 'New Set/Refill',
-                price : '$65/$55',
+                name: 'Express Pedicure',
+                price: '$38',
+                img_url : require('../img/pedicure/1.png'),
+                desc: 'Soak, nail shaping filing, cuticle trim, buffing & polish of choice'
+            },
+            {
+                id : 2,
+                name: 'Lavender Pedicure',
+                price: '$35',
+                img_url : require('../img/pedicure/2.png'),
+                desc: 'Soak, nail shaping, filing, cuticle trim, buffing, CALLUS Removal of dead skin under the feet, heel treatment, massage, finishing up with hot towels & Polish'
+            },
+            {
+                id : 3,
+                name: 'Fresh Cucumber Pedicure',
+                price: '$50',
+                img_url : require('../img/pedicure/3.png'),
+                desc: 'A symphony of essential oils, vitamin E, antioxidants formulated to stimulate your senses as it smooths, refines & conditions your feet. A Cucumbers rub follows to wipe dead skin & restore moisture, hot stones massage & Hot towels, (10 MINUTE MASSAGE)',
+            },
+            {
+                id : 4,
+                name: 'Fresh Aloe Vera Pedicure',
+                img_url : require('../img/pedicure/4.png'),
+                price: '$57',
+                desc: 'Designed to moisturize, revitalize & hydrate the skin, this pedicure is full Of Vitamin E, a warm paraffin treatment seals in moisture & provides complete hydration, leaving you renewed, soften with silky smooth ski (15 MINUTE MASSAGE)'
+            },
+            {
+                id: 5,
+                name: 'Signature Cosmo Pedicure',
+                price: '$65',
+                desc: 'An unforgettable experience of pure pampering that softens the skin, eliminates dryness, deeply relaxes you, the pedicure begins with a foot bath, cuticle trim, extensive callus removal, & sea salt exfoliation is included to help soften rough skin, our foot mask incorporates with long Deep tissue massage, paraffin wax, hot stones & war, towels to infuse moisture providing a silky smooth skin, (20 MIN FOOT MASSAGE)'
+            },
+            {
+                id: 6,
+                name: 'Volcano Pedicure',
+                price: '$79',
+                desc: 'One of our most indulgent pedicure treatments includes a soothing soak, a purifying scrub, a nourishing mask, followed by a paraffin wax treatment, hot stone therapy, and a 20-minute deep tissue foot massage, finishing with a 5-minute shoulder massage using our rich massage cream to soften and soothe'
+            },
+            {
+                id: 7,
+                name: 'Candle Wax Gold CBD Pedicure',
+                price: '$89',
+                desc: 'This pedicure treatment offers a calming experience, hydrating the skin to minimize dryness and remove dead skin cells. It enhances blood circulation by dilating blood vessels with warm heat from CANDLE WAX treatments. Our CEREMONY of GOLD products slow down collagen depletion, boost skin elasticity, and stimulate skin toning. The treatment includes a gold soak with herbal infused foot bath, neck therapy, and collagen foot mask, accompanied by a 25-minute massage with hot stone and paraffin wax & 5 minutes shoulder massage'
+            }
+        ],
+        img_url : require('../img/pedicure/1.png'),
+    },
+    {
+        id : 3,
+        servicename: 'Gel Services',
+        service: [
+            {
+                id : 1,
+                name: 'Hard Gel (Builder Gel)',
+                price : '$60+',
                 img_url : require('../img/gelx2.jpg')
             },
             {
                 id : 2,
-                name: 'Hybrid color gel new set / refill',
-                price: '$60/$50',
+                name: 'Gel X',
+                price: '$65+',
                 img_url : require('../img/gelx3.jpg')
+            },
+            {
+                id : 3,
+                name: 'Gel Manicure',
+                price: '$45+',
+            },
+            {
+                id : 4,
+                name: 'Gel Polish Change',
+                price: '$30',
             },
         ],
         img_url : require('../img/gelx3.jpg')
     },
     {
-        id : 3,
-        servicename : 'Nail Enhancements',
-        service : [
+        id : 4,
+        servicename : 'Acrylic Services',
+        service : [ 
             {
                 id : 1,
-                name : 'Gel Manicure',
-                price: '$45'
-            },
-            {
-                id : 2,
-                name : 'Gel Manicure French',
-                price: '$48'
-            },
-            {
-                id : 3,
-                name : 'Gel Color W/O Service',
-                price: '$30'
-            },
-            {
-                id : 4,
-                name : 'Gel Color With Service',
-                price: '$20'
-            },
-            {
-                id : 5,
-                name : 'French/ American extra',
-                price: '$8'
-            },
-            {
-                id : 6,
-                name : 'Dipping 1 Color Powder',
-                price: '$45+'
-            },
-            {
-                id : 7,
-                name : 'Dipping Pink And White',
+                name : 'Acrylic Full set',
                 price: '$50+'
             },
             {
-                id : 8,
-                name : 'Solar Pink And White',
+                id : 2,
+                name : 'Acrylic Fill',
+                price: '$45+'
+            },
+            {
+                id : 3,
+                name : 'Solar Pink & White',
                 price: '$55+'
             },
             {
-                id : 9,
-                name : 'Acrylic Full set/Refill',
-                price: '$50+ / $45+'
-            },
-            {
-                id : 10,
-                name : 'Acrylic Color Powder Full set/Refill',
-                price: '$50+ / $40+'
-            },
+                id : 4,
+                name : 'Solar Pink & White Fill',
+                price: '$50+'
+            }
         ],
         img_url : require('../img/6.jpg')
     },
     {
-        id : 4,
+        id: 11,
+        servicename: 'Dipping Powder (Next-Gen)',
+        service: [
+            {
+                name: 'Dip Color',
+                price : '$45',
+            },
+            {
+                name: 'Dip French',
+                price : '$55+',
+            },
+            {
+                name: 'Dip Ombré',
+                price : '$70',
+            }
+        ],
+        img_url: require('../img/dip.png'),
+    },
+    {
+        id : 5,
         servicename: 'Waxing',
         service: [
             {
@@ -141,143 +171,180 @@ const ServicesData = [
                 price: '$15'
             },
             {
-                name: 'Lip',
+                name: 'Upper Lip',
                 price: '$10'
             },
             {
-                name: 'Full Chin',
-                price: '$15'
+                name: 'Side Burns',
+                price: '$10'
+            },
+            {
+                name: 'Cheeks',
+                price: '$15+'
             },
             {
                 name: 'Full Face',
                 price: '$45+'
             },
             {
-                name: 'Stomach',
-                price: '$25'
+                name: 'Chin',
+                price: '$15+'
+            },
+            {
+                name: 'Under Arms',
+                price: '$25+'
+            },
+            {
+                name: 'Full Arms',
+                price: '$55+'
+            },
+            {
+                name: 'Half Arm',
+                price: '$40+'
+            },
+            {
+                name: 'Back',
+                price: '$55+'
             },
             {
                 name: 'Chest',
                 price: '$45+'
             },
             {
-                name: 'Full Leg / For Leg',
-                price: '$65+ / $40+'
+                name: 'Full Legs',
+                price: '$65+'
             },
             {
-                name: 'Full Arm / Half Arm',
-                price: '$55+ / $40+'
+                name: 'Lower Legs',
+                price: '$40+'
             },
             {
-                name: 'Under Arm',
-                price: '$25+'
-            },
-            {
-                name: 'Bikini',
-                price: '$50+'
+                name: 'Upper Legs',
+                price: '$45+'
             },
             {
                 name: 'Brazilian',
                 price: '$60+'
             },
+            {
+                name: 'Bikini',
+                price: '$50+'
+            }
         ],
         img_url : require('../img/wax.jpg')
     },
     {
-        id : 5,
-        servicename: 'Facials',
-        service: [
-            {
-                name: 'Express 30 Min Teen',
-                price: '$45',
-                img_url: require('../img/facial/1.png')
-            },
-            {
-                name: 'Dream 50 Min',
-                price: '$60',
-                img_url: require('../img/facial/2.png')
-            },
-            {
-                name: 'Gentlement 60 Min',
-                price: '$75',
-                img_url: require('../img/facial/3.png')
-            },
-            {
-                name: 'M Signature 90 Min',
-                price: '$90',
-                img_url: require('../img/facial/4.png')
-            },
-        ],
-        img_url: require('../img/facial/3.png')
-    },
-    {
-        id : 6,
+        id : 7,
         servicename: 'Eyelash Extension',
         service: [
             {
-                name : 'Cluster',
-                price : '$60',
+                name : 'Eyelash Tinting',
+                price : '$25',
                 img_url: require('../img/eyelash/4.jpg')
             },
             {
-                name : 'Classic',
-                price : '$99+',
-                img_url: require('../img/eyelash/7.jpg')
+                name : 'Eyebrows Tinting',
+                price : '$20',
+                img_url: require('../img/eyelash/7.png')
             },
             {
-                name : 'Hybrid',
-                price : '$125+',
+                name : 'Lashes',
+                price : 'Market Price',
                 img_url: require('../img/eyelash/1.jpg')
             },
             {
-                name : 'Volume',
-                price : '$150+',
+                name : 'Lashes Fill',
+                price : 'Varies',
                 img_url: require('../img/eyelash/6.jpg')
             }
         ],
         img_url: require('../img/eyelash/5 (2).jpg')
     },
     {
-        id : 7,
+        id : 8,
         servicename: 'Extra',
         service: [
             {
-                name: 'Extension',
+                name: 'Add Gel',
+                price : '$20'
+            },
+            {
+                name : 'French Style',
+                price : '$10+'
+            },
+            {
+                name : 'Nail Shaping',
+                price : '$5'
+            },
+            {
+                name : 'Nail Extensions',
+                price : '$5'
+            },
+            {
+                name : 'Extra Length',
                 price : '$5+'
             },
             {
-                name : 'Shape',
+                name : 'Cuticle Cut',
                 price : '$5'
             },
             {
-                name : 'Nail Design / Repair',
-                price : '$5+ / $8+'
+                name : 'Nail Repair',
+                price : '$8+'
             },
             {
-                name : 'Polish Change Hand / Toe',
-                price : '$10 / $15'
+                name : 'Nail Designs',
+                price : '$5+'
             },
             {
-                name : 'Parafin Wax',
-                price : '$8'
-            },
-            {
-                name : 'Acrylic Removal W/O Service',
-                price : '$20+'
-            },
-            {
-                name : 'Dipping Removal W/O Service',
-                price : '$15+'
-            },
-            {
-                name : 'Removal With Service',
+                name: 'Matte Nails',
                 price : '$5'
             },
+            {
+                name: 'Toe Nails Exten',
+                price: '$8'
+            },
+            {
+                name: 'Toe Full Set',
+                price: '$50'
+            },
+            {
+                name: 'Cut Down Reshape',
+                price: '$5+'
+            },
+            {
+                name: 'Paraffin Wax Hand',
+                price: '$8'
+            },
+            {
+                name: 'Paraffin Wax Toe',
+                price: '$10'
+            },
+            {
+                name: 'Acrylic Removal',
+                price: '$20+'
+            },
+            {
+                name: 'Dip/ Gel Removal',
+                price: '$15+'
+            },
+            {
+                name: 'Gel X Removal',
+                price: '$20+'
+            },
+            {
+                name: 'Shinny Buff',
+                price: '$5'
+            },
+            {
+                name: 'Collagen Glove/Sock',
+                price: '$10'
+            }
         ],
         img_url: require('../img/extra.png')
     },
     {
-        id : 8,
+        id : 9,
         servicename: 'Kid Service',
         service: [
             {
@@ -289,14 +356,26 @@ const ServicesData = [
                 price : '$25'
             },
             {
-                name : 'Gel Polish Hand/ Toe',
-                price : '$20'
+                name: 'Polish Change Hand',
+                price: '$10'
             },
+            {
+                name: 'Polish Change Feet',
+                price: '$10'
+            },
+            {
+                name: 'Gel Polish Hand',
+                price: '$20'
+            },
+            {
+                name: 'Gel Polish Feet',
+                price: '$20'
+            }
         ],
         img_url : require('../img/kid.png')
     },
     {
-        id : 9,
+        id : 10,
         servicename: 'Head Spa',
         service: [
             {
@@ -328,7 +407,7 @@ const ServicesData = [
         img_url : require('../img/headspa.png')
     },
     {
-        id : 10,
+        id : 12,
         servicename: 'Drinks Offer',
         service: [
             {

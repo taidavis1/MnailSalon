@@ -30,7 +30,7 @@ export default function Services(){
                             </h1>
                         </div>
                         <div className="cursor-pointer">
-                            <img className=" hover:opacity-60 transition-opacity ease-in-out duration-200 delay-100" src={thirdimg} />
+                            <img alt="Third Photo" className=" hover:opacity-60 transition-opacity ease-in-out duration-200 delay-100" src={thirdimg} />
                         </div>
                     </div>
 
@@ -50,11 +50,11 @@ export default function Services(){
                                         </div>
                                     </div>
                                     {IsClick[s.id] && (
-                                        <Fade duration={1500} delay={100}>
+                                        <Fade duration={1000} delay={50}>
                                             <div className="">
                                                 <div className="p-2 shadow-md space-y-4 rounded-lg">
                                                     <div className="">
-                                                        <img src={s.img_url} alt = {s.servicename} />
+                                                        <img src={s?.img_url} alt = {s.servicename} />
                                                     </div>
                                                     {s.service.map((se , index) => (
                                                         <>
@@ -66,7 +66,7 @@ export default function Services(){
                                                                     )}
                                                                 </div>
                                                                 <div className=" flex justify-center items-center">
-                                                                    <span className=" text-orange-400 tracking-wider font-bold">{se.price}</span>
+                                                                    <span className=" text-main-color text-lg tracking-wider font-bold">{se.price}</span>
                                                                 </div>
                                                             </div>
                                                             <hr></hr>  
@@ -84,9 +84,9 @@ export default function Services(){
                                                         
                     {/* Desktop View */}
                     <Slide duration={1500} delay={100}>
-                        {ServicesData.map((ser) => (
+                        {ServicesData.map((ser, index) => (
                         <div className="p-3 space-y-8 hidden md:block">
-                                <div id={ser.id} key={ser.id} className="flex justify-center">
+                                <div id={index} key={index} className="flex justify-center">
                                     <div className="bg-main-color/80 rounded-full shadow-md  px-12 py-3">
                                         <h1 className="tracking-wide capitalize cursor-pointer italic text-white md:text-4xl font-bold">{ser.servicename}</h1>
                                     </div>
@@ -95,14 +95,14 @@ export default function Services(){
                                     <div className=" grid gap-4 grid-cols-4">
                                         {ser.service.map((s , index) => (
                                             <div key={index} className="shadow-lg h-fit rounded-lg mb-2 ease-in-out transition-all duration-1000 lg:hover:scale-105">
-                                                {(ser.id === 1 || ser.id === 2 || ser.id === 5 || ser.id === 6 )&& (
+                                                {(ser.id === 1 || ser.id === 3 || ser.id === 6 || ser.id === 7 || ser.id === 2 )&& (
                                                     <div className="overflow-hidden">
-                                                        <img src={s.img_url} />
+                                                        {s.img_url && <img alt={s.name} src={s.img_url} />}
                                                     </div>
                                                 )}
                                                 <div className="px-8 space-y-4 mb-4 mt-4">
                                                     <h1 className="md:text-lg text-center capitalize border-main-color/40 border-b-2 py-1">{s.name}</h1>
-                                                    {ser.servicename === 'Manicure & Pedicure' && (
+                                                    {(ser.servicename === 'Manicures' || ser.servicename === 'Pedicure') && (
                                                         <div className=" text-black/60 text-justify">
                                                             <ul className=" list-inside font-newFont list-disc">
                                                                 <li>
