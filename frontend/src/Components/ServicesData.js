@@ -82,7 +82,7 @@ const ServicesData = [
             {
                 id : 1,
                 name : 'Gel Manicure',
-                price: '$42'
+                price: '$45'
             },
             {
                 id : 2,
@@ -107,7 +107,7 @@ const ServicesData = [
             {
                 id : 6,
                 name : 'Dipping 1 Color Powder',
-                price: '$42+'
+                price: '$45+'
             },
             {
                 id : 7,
@@ -117,16 +117,16 @@ const ServicesData = [
             {
                 id : 8,
                 name : 'Solar Pink And White',
-                price: '$60+'
+                price: '$55+'
             },
             {
                 id : 9,
-                name : 'Acrylic Fullset/Refill',
-                price: '$50+ / $40+'
+                name : 'Acrylic Full set/Refill',
+                price: '$50+ / $45+'
             },
             {
                 id : 10,
-                name : 'Acrylic Color Powder Fullset/Refill',
+                name : 'Acrylic Color Powder Full set/Refill',
                 price: '$50+ / $40+'
             },
         ],
@@ -137,15 +137,11 @@ const ServicesData = [
         servicename: 'Waxing',
         service: [
             {
-                name: 'Eyebrow',
-                price: '$12'
+                name: 'Eyebrows',
+                price: '$15'
             },
             {
                 name: 'Lip',
-                price: '$8'
-            },
-            {
-                name: 'Chin',
                 price: '$10'
             },
             {
@@ -154,7 +150,7 @@ const ServicesData = [
             },
             {
                 name: 'Full Face',
-                price: '$40'
+                price: '$45+'
             },
             {
                 name: 'Stomach',
@@ -162,27 +158,27 @@ const ServicesData = [
             },
             {
                 name: 'Chest',
-                price: '$35+'
+                price: '$45+'
             },
             {
                 name: 'Full Leg / For Leg',
                 price: '$65+ / $40+'
             },
             {
-                name: 'Full Arm / For Arm',
-                price: '$45+ / $25+'
+                name: 'Full Arm / Half Arm',
+                price: '$55+ / $40+'
             },
             {
                 name: 'Under Arm',
-                price: '$20'
+                price: '$25+'
             },
             {
                 name: 'Bikini',
-                price: '$45+'
+                price: '$50+'
             },
             {
                 name: 'Brazilian',
-                price: '$55+'
+                price: '$60+'
             },
         ],
         img_url : require('../img/wax.jpg')
@@ -255,7 +251,7 @@ const ServicesData = [
             },
             {
                 name : 'Nail Design / Repair',
-                price : '$5+ / Each Nail'
+                price : '$5+ / $8+'
             },
             {
                 name : 'Polish Change Hand / Toe',
@@ -267,11 +263,11 @@ const ServicesData = [
             },
             {
                 name : 'Acrylic Removal W/O Service',
-                price : '$20'
+                price : '$20+'
             },
             {
                 name : 'Dipping Removal W/O Service',
-                price : '$10'
+                price : '$15+'
             },
             {
                 name : 'Removal With Service',
@@ -286,20 +282,16 @@ const ServicesData = [
         service: [
             {
                 name : 'Manicure',
-                price : '$10'
+                price : '$15'
             },
             {
                 name : 'Pedicure',
                 price : '$25'
             },
             {
-                name : 'Polish Hand/ Toe',
-                price : '$6/$10'
+                name : 'Gel Polish Hand/ Toe',
+                price : '$20'
             },
-            {
-                name : 'Gel Color',
-                price : '$15'
-            }
         ],
         img_url : require('../img/kid.png')
     },

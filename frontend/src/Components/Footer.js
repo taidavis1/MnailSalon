@@ -221,7 +221,7 @@ export default function Footer(){
                         </div>
                     </div>
                 </div>
-      
+
                 <div className="mt-12 border-t border-gray-100 pt-6">
                     <div className="text-center sm:flex sm:justify-between sm:text-left">
                         <p className="text-sm text-gray-500">
@@ -229,7 +229,7 @@ export default function Footer(){
                         </p>  
         
                         <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-                            &copy; 2024 M Spa & Beauty Nails
+                            &copy; {new Date().getFullYear()} M Spa & Beauty Nails
                         </p>
                     </div>
                 </div>
