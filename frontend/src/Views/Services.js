@@ -30,7 +30,7 @@ export default function Services(){
                             </h1>
                         </div>
                         <div className="cursor-pointer">
-                            <img alt="Third Photo" className=" hover:opacity-60 transition-opacity ease-in-out duration-200 delay-100" src={thirdimg} />
+                            <img alt="Third" className=" hover:opacity-60 transition-opacity ease-in-out duration-200 delay-100" src={thirdimg} />
                         </div>
                     </div>
 

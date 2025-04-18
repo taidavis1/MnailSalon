@@ -5,7 +5,7 @@ export default function Footer(){
     return(
         <footer className="bg-white cursor-pointer">
             <div className="mx-auto max-w-screen-xl px-6 pb-6 pt-16 lg:px-8 lg:pt-24">
-                <div className="grid lg:space-x-12 grid-cols-1 gap-12 lg:grid-cols-3">
+                <div className="grid lg:space-x-8 grid-cols-1 gap-12 lg:grid-cols-3">
                     <div className="grid justify-items-center">
                         <div>
                             <div className=" flex items-center flex-col">
@@ -22,23 +22,23 @@ export default function Footer(){
                 
                         <ul className="mt-8 flex justify-center gap-6 md:gap-8">
                             <li className="">
-                                <a href="https://www.yelp.com/biz/m-spa-and-beauty-nails-plano-3" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
-                                    <img src="https://img.icons8.com/fluent/30/000000/yelp.png"/>
+                                <a href="https://www.yelp.com/biz/m-spa-and-beauty-nails-plano-3" rel="noreferrer" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
+                                    <img alt="#yelpIcon" src="https://img.icons8.com/fluent/30/000000/yelp.png"/>
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto:mspabeautynails@gmail.com" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
-                                    <img src="https://img.icons8.com/fluent/30/000000/gmail-new.png"/>
+                                <a href="mailto:mspabeautynails@gmail.com" rel="noreferrer" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
+                                    <img alt="#gmailIcon" src="https://img.icons8.com/fluent/30/000000/gmail-new.png"/>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/mspabeautynails/" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
-                                    <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png"/>
+                                <a href="https://www.instagram.com/mspabeautynails/" rel="noreferrer" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
+                                    <img alt="#instagramIcon" src="https://img.icons8.com/fluent/30/000000/instagram-new.png"/>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.google.com/maps/place/M+Spa+%26+Beauty+Nails/@33.0022604,-96.7675107,17z/data=!3m1!4b1!4m6!3m5!1s0x864c22114ed50c57:0xf813007a332e70df!8m2!3d33.0022559!4d-96.7649304!16s%2Fg%2F11bx1s17w_?entry=ttu" target="_blank" className="text-teal-700 transition hover:text-teal-700/75">
-                                    <img src="https://img.icons8.com/fluency/30/google-logo.png"/>
+                                <a href="https://www.google.com/maps/place/M+Spa+%26+Beauty+Nails/@33.0022604,-96.7675107,17z/data=!3m1!4b1!4m6!3m5!1s0x864c22114ed50c57:0xf813007a332e70df!8m2!3d33.0022559!4d-96.7649304!16s%2Fg%2F11bx1s17w_?entry=ttu" target="_blank" rel="noreferrer" className="text-teal-700 transition hover:text-teal-700/75">
+                                    <img alt="#googleIcon" src="https://img.icons8.com/fluency/30/google-logo.png"/>
                                 </a>
                             </li>
                         </ul>
@@ -63,7 +63,7 @@ export default function Footer(){
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.lldtek.org/salon/appt/VkZoZk1UQXdPREk9" target="_blank" className="transition text-black t-underline t-underline-black border-b-yellow-500">
+                                    <a href="https://www.lldtek.org/salon/appt/VkZoZk1UQXdPREk9" target="_blank" rel="noreferrer" className="transition text-black t-underline t-underline-black border-b-yellow-500">
                                         Booking
                                     </a>
                                 </li>
@@ -113,39 +113,39 @@ export default function Footer(){
                             <p className="text-lg font-medium text-gray-900">Business Hours</p>
                             <ul className="mt-8 space-y-4 text-sm">
                                 <li>
-                                    <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Mon: 9:30 am - 7:30 pm
-                                    </a>
+                                    <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
+                                        Mon: 10:00 am - 11:00 pm
+                                    </span>
                                 </li>
                                 <li>
-                                    <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Tues: 9:30 am - 7:30 pm
-                                    </a>
+                                    <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
+                                        Tues: 10:00 am - 11:00 pm
+                                    </span>
                                 </li>
                                 <li>
-                                    <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Wed: 9:30 am - 7:30 pm
-                                    </a>
+                                    <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
+                                        Wed: 10:00 am - 11:00 pm
+                                    </span>
                                 </li>
                                 <li>
-                                    <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Thu: 9:30 am - 7:30 pm
-                                    </a>
+                                    <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
+                                        Thu: 10:00 am - 11:00 pm
+                                    </span>
                                 </li>
                                 <li>
-                                    <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Fri: 9:30 am - 7:30 pm
-                                    </a>
+                                    <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
+                                        Fri: 10:00 am - 11:00 pm
+                                    </span>
                                 </li>
                                 <li>
-                                    <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Sat: 9:00 am - 7:00 pm
-                                    </a>
+                                    <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
+                                        Sat: 10:00 am - 11:00 pm
+                                    </span>
                                 </li>
                                 <li>
-                                    <a className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                        Sun: 12:00 pm - 6:00 pm
-                                    </a>
+                                    <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
+                                        Sun: 12:00 pm - 11:00 pm
+                                    </span>
                                 </li>
                             </ul>
                         </div>
@@ -153,7 +153,7 @@ export default function Footer(){
                             <p className="text-lg font-medium text-gray-900">Contact Us</p>
                             <ul className="mt-8 space-y-5 text-sm">
                                 <li>
-                                    <a className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end" href="/">
+                                    <a className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end" href="mailto:mspabeautynails@gmail.com">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             className="h-5 w-5 shrink-0 text-gray-900"
@@ -168,10 +168,10 @@ export default function Footer(){
                                             d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                                             />
                                         </svg>
-                                        <a href="mailto:mspabeautynails@gmail.com" className="flex-1 text-gray-700">mspabeautynails@gmail.com</a>
+                                        <span className="flex-1 text-gray-700">mspabeautynails@gmail.com</span>
                                     </a>
                                 </li>
-      
+
                                 <li>
                                     <a className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end" href="tel:9729430322">
                                         <svg
@@ -188,11 +188,11 @@ export default function Footer(){
                                             d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                                             />
                                         </svg>
-      
+
                                         <span className="flex-1 text-gray-700">(972) 943-0322</span>
                                     </a>
                                 </li>
-      
+
                                 <li className="flex items-start justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end">
                                     <svg
                                     xmlns="http://www.w3.org/2000/svg"

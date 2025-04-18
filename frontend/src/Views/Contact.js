@@ -46,37 +46,37 @@ export default function Contact(){
                                     <ul className="space-y-4 text-sm mt-4">
                                         <li>
                                             <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                                Mon: 9:30 am - 7:30 pm
+                                                Mon: 10:00 am - 11:00 pm
                                             </span>
                                         </li>
                                         <li>
                                             <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                                Tues:  9:30 am - 7:30 pm
+                                                Tues: 10:00 am - 11:00 pm
                                             </span>
                                         </li>
                                         <li>
                                             <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                                Wed:  9:30 am - 7:30 pm
+                                                Wed: 10:00 am - 11:00 pm
                                             </span>
                                         </li>
                                         <li>
                                             <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                                Thu:  9:30 am - 7:30 pm
+                                                Thu: 10:00 am - 11:00 pm
                                             </span>
                                         </li>
                                         <li>
                                             <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                                Fri:  9:30 am - 7:30 pm
+                                                Fri: 10:00 am - 11:00 pm
                                             </span>
                                         </li>
                                         <li>
                                             <span className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                                Sat: 9:00 am - 7:00 pm
+                                                Sat: 10:00 am - 11:00 pm
                                             </span>
                                         </li>
                                         <li>
                                             <span href="" className=" transition text-black t-underline t-underline-black border-b-yellow-500">
-                                                Sun: 12:00 pm - 6:00 pm
+                                                Sun: 12:00 pm - 11:00 pm
                                             </span>
                                         </li>
                                     </ul>
@@ -84,9 +84,9 @@ export default function Contact(){
                                         e.preventDefault();
                                         window.open('https://www.lldtek.org/salon/appt/VkZoZk1UQXdPREk9', '_blank');
                                     }} className=" mt-5 py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
-                                       <span className=" transition ease-in-out duration-200 delay-100 text-lg group-hover:text-white">
+                                        <span className=" transition ease-in-out duration-200 delay-100 text-lg group-hover:text-white">
                                             Book Now
-                                       </span>
+                                        </span>
                                     </button>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@ export default function Contact(){
                 </div>
             </div>
             <div className="grid justify-items-center">
-                <iframe className="w-full md:px-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.0576374309658!2d-96.76750532313976!3d33.00225587357038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c22114ed50c57%3A0xf813007a332e70df!2sM%20Spa%20%26%20Beauty%20Nails!5e0!3m2!1sen!2sus!4v1707705637970!5m2!1sen!2sus"  height="600" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title="M Spa & Beauty Nails Location" className="w-full md:px-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.0576374309658!2d-96.76750532313976!3d33.00225587357038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c22114ed50c57%3A0xf813007a332e70df!2sM%20Spa%20%26%20Beauty%20Nails!5e0!3m2!1sen!2sus!4v1707705637970!5m2!1sen!2sus"  height="600" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
 
