@@ -48,7 +48,7 @@ const ServicesData = [
             {
                 id : 2,
                 name: 'Lavender Pedicure',
-                price: '$35',
+                price: '$45',
                 img_url : require('../img/pedicure/2.png'),
                 desc: 'Soak, nail shaping, filing, cuticle trim, buffing, CALLUS Removal of dead skin under the feet, heel treatment, massage, finishing up with hot towels & Polish'
             },
