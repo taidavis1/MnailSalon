@@ -130,16 +130,6 @@ const ServicesData = [
                 name : 'Acrylic Fill',
                 price: '$45+'
             },
-            {
-                id : 3,
-                name : 'Solar Pink & White',
-                price: '$55+'
-            },
-            {
-                id : 4,
-                name : 'Solar Pink & White Fill',
-                price: '$50+'
-            }
         ],
         img_url : require('../img/6.jpg')
     },
