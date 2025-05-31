@@ -2,38 +2,38 @@
 const ReviewData = [
     {
         id: 1,
-        name: 'Tonja L',
-        desc: "The staff at M Spa never disappoints.My nails are always done beautifully!!!! I am in and out in about an hour and a half and that's including a pedicure!!!! I absolutely love this place",
+        name: 'REM dcs',
+        desc: "Looking for a nail spa open at 10pm. So fortunate to have found M Nail & Lash Nail Salon. They welcomed me in, treated me like we’ve been friends forever. Needed a mani/pedi and told them my feet hurt. They gave me a a hot stone massage with my pedicure with a very flavorful adult beverage and I was good as new. Best part…THEY’RE RIGHT NEXT TO CENTRAL MARKET at Coit and George Bush Hwy. Where have you been all my life!!! Thank you so much. Very friendly people.",
         star: 5
     },
     {
         id: 2,
-        name: 'Alisha H',
-        desc: "I've been a customer of this nail spa for 6 years, occasionally trying others but none match its quality. For Mother's Day, I took my mom for a girls day out here. They treated her gently, and Q perfectly executed two nail designs I had in mind, one of which I drew myself. I'll definitely stick with Q as my preferred technician, though there are several other skilled ones too.",
+        name: 'Hanh Tran',
+        desc: "I’m truly impressed with the service here! I got a pedicure and a full set of acrylics – both were absolutely amazing. The foot massage was professional and relaxing, hitting all the right spots and making me feel completely at ease. My acrylic nails turned out stunning, with every detail done perfectly just the way I wanted.",
         star: 5
     },
     {
         id: 3,
-        name: 'JJ',
-        desc: "This place was absolutely amazing! I came here for the first time with my mom and my bf's mom. I think 3 mani/pedis overwhelmed them a little because it took a little longer than I would have liked. However, the final result was phenomenal. We were all more than satisfied with the outcome. I'll definitely be back but probably not with more than just 1 other person, lol. I got dipped nails and for the first time ever, they weren't too thick. That detail alone made a loyal customer out of me!",
+        name: 'Minh Kinney',
+        desc: "I absolutely love going here…. The amazing customer service and hospitality they were receive here is unmatched ……",
         star: 5
     },
     {
         id: 4,
-        name: 'M T',
-        desc: "This place is the best! I've been a patron for more than 5 years and I have never had a service that I didn't leave completely satisfied with. All of their technicians and staff are talented. Their prices are competitive and very reasonable for the quality they provide. Great atmosphere, comfortable and clean, friendly faces... they're the best!",
+        name: 'Chelita McDuffie',
+        desc: "Love going here. My nails always turn out awesome. They really take their time!",
         star: 5
     },
     {
         id: 5,
-        name: 'Diane L',
-        desc: "I'm admittedly really picky when it comes to getting my nails done and appreciate a friendly but relaxing atmosphere. Everyone at M Spa & Beauty Nails is great and treat you like family when you walk in. The service they provide is above and beyond and they get to really know you while doing the best work. I walk out of there feeling like a new person each time and my nails and pedicure always look great. It's also a great nail salon to do a group party for a special event or take your little girls for their first mani/pedi. Love this place!!",
+        name: 'Ida Conte',
+        desc: "Omg, Kae and Missile were absolutely wonderful! I came in during the late hours, and they were still so happy, positive, and welcoming. There was no rush at all—they took their time and made sure everything was perfect. I got my nails and feet done, and they look amazing. My experience was so relaxing and enjoyable. I would love to come back to them again. Highly recommend!",
         star: 5
     },
     {
         id: 6,
-        name: 'Shelby S',
-        desc: "Loved the movies playing, the atmosphere, and the kind employees. The girl who did my nails made sure the were absolutely perfect!! I had chrome nails and I will always go back to them for anything unique and fun!",
+        name: 'Laura Mendez',
+        desc: "Thank you for your service, had a nice massage along with a mimosa. This was extremely relaxing and my nails came out beautiful 🫶🏻",
         star: 4
     },
     {
