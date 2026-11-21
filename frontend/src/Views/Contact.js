@@ -82,7 +82,7 @@ export default function Contact(){
                                     </ul>
                                     <button onClick={(e) => {
                                         e.preventDefault();
-                                        window.open('https://www.lldtek.org/salon/appt/VkZoZk1UQXdPREk9', '_blank');
+                                        window.open('https://www.lldtek.org/salon/appt/VkZoZk1URTBOVGc9', '_blank');
                                     }} className=" mt-5 py-3 transition ease-in-out duration-200 delay-100 group border-main-color hover:bg-main-color px-12 border-[1px]">
                                         <span className=" transition ease-in-out duration-200 delay-100 text-lg group-hover:text-white">
                                             Book Now

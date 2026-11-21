@@ -63,7 +63,7 @@ export default function Footer(){
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.lldtek.org/salon/appt/VkZoZk1UQXdPREk9" target="_blank" rel="noreferrer" className="transition text-black t-underline t-underline-black border-b-yellow-500">
+                                    <a href="https://www.lldtek.org/salon/appt/VkZoZk1URTBOVGc9" target="_blank" rel="noreferrer" className="transition text-black t-underline t-underline-black border-b-yellow-500">
                                         Booking
                                     </a>
                                 </li>
